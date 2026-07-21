@@ -1,0 +1,63 @@
+{
+  "version": 1,
+  "updatedAt": "2026-07-21",
+  "translation": {
+    "OpenAI": [
+      { "id": "gpt-4o-mini",  "priceIn": 0.15, "priceOut": 0.60 },
+      { "id": "gpt-4.1-mini", "priceIn": 0.40, "priceOut": 1.60 },
+      { "id": "gpt-4.1-nano", "priceIn": 0.10, "priceOut": 0.40 }
+    ],
+    "Claude": [
+      { "id": "claude-haiku-4-5",  "priceIn": 1, "priceOut": 5 },
+      { "id": "claude-sonnet-4-6", "priceIn": 3, "priceOut": 15 }
+    ],
+    "Gemini": [
+      { "id": "gemini-3.1-flash-lite", "priceIn": 0.10, "priceOut": 0.40 },
+      { "id": "gemini-2.5-flash-lite", "priceIn": 0.10, "priceOut": 0.40 },
+      { "id": "gemini-2.5-flash",      "priceIn": 0.30, "priceOut": 2.50 }
+    ],
+    "DeepSeek": [
+      { "id": "deepseek-v4-flash", "priceIn": 0.14, "priceOut": 0.28 }
+    ],
+    "DeepL": [
+      { "id": "deepl", "priceIn": 25 }
+    ],
+    "GoogleTranslate": [
+      { "id": "google-translate", "priceIn": 20 }
+    ]
+  },
+  "tts": {
+    "InWorld": [
+      { "id": "inworld-tts-2", "priceIn": 25 }
+    ],
+    "ElevenLabs": [
+      { "id": "eleven_multilingual_v2", "priceIn": 100 }
+    ],
+    "GoogleCloud": [
+      { "id": "neural2", "priceIn": 16 }
+    ],
+    "Azure": [
+      { "id": "neural", "priceIn": 16 }
+    ]
+  },
+  "stt": {
+    "AssemblyAI": [
+      { "id": "universal-2", "priceIn": 0.0025 }
+    ],
+    "Gladia": [
+      { "id": "default", "priceIn": 0.0102 }
+    ],
+    "Deepgram": [
+      { "id": "nova-3", "priceIn": 0.0043 }
+    ],
+    "Speechmatics": [
+      { "id": "enhanced", "priceIn": 0.004 }
+    ],
+    "ElevenLabs": [
+      { "id": "scribe_v1", "priceIn": 0.0037 }
+    ],
+    "RevAI": [
+      { "id": "reverb", "priceIn": 0.003 }
+    ]
+  }
+}
