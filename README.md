@@ -23,11 +23,16 @@ on a schema change), commit to `main`. Clients pick it up on their next launch/r
   "version": 1,              // schema version — bump only when the shape changes
   "updatedAt": "2026-07-21", // free-form date, shown in the editor as "updated on…"
 
-  "translation": { "<Provider>": [ { "id": "...", "priceIn": 0.15, "priceOut": 0.60 } ] },
-  "tts":         { "<Provider>": [ { "id": "...", "priceIn": 25 } ] },
-  "stt":         { "<Provider>": [ { "id": "...", "priceIn": 0.0043 } ] }
+  "translation": [
+    { "provider": "OpenAI", "models": [ { "id": "gpt-4o-mini", "priceIn": 0.15, "priceOut": 0.60 } ] }
+  ],
+  "tts": [ { "provider": "InWorld",  "models": [ { "id": "inworld-tts-2", "priceIn": 25 } ] } ],
+  "stt": [ { "provider": "Deepgram", "models": [ { "id": "nova-3", "priceIn": 0.0043 } ] } ]
 }
 ```
+
+Each section is an **array** of `{ "provider": ..., "models": [ ... ] }`. To add a model to a
+provider, append an entry to its `models` array; to add a provider, append a new object.
 
 - **`id`** (required) — the exact model identifier sent to the provider API.
 - **`priceIn`** (optional) — price shown in the dropdown. For LLMs it is USD per **1M input
