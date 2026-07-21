@@ -35,7 +35,7 @@
   "stt": [
     { "provider": "AssemblyAI",   "models": [
       { "id": "universal-2", "priceIn": 0.0025 },
-      { "id": "universal-3-5-pro"}
+      { "id": "universal-3-5-proxx"}
     ] },
     { "provider": "Gladia",       "models": [ { "id": "default", "priceIn": 0.0102 } ] },
     { "provider": "Deepgram",     "models": [ { "id": "nova-3", "priceIn": 0.0043 } ] },
