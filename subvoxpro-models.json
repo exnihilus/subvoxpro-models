@@ -27,20 +27,38 @@
     ] }
   ],
   "tts": [
-    { "provider": "InWorld",     "models": [ { "id": "inworld-tts-2", "priceIn": 25 } ] },
-    { "provider": "ElevenLabs",  "models": [ { "id": "eleven_multilingual_v2", "priceIn": 100 } ] },
-    { "provider": "GoogleCloud", "models": [ { "id": "neural2", "priceIn": 16 } ] },
-    { "provider": "Azure",       "models": [ { "id": "neural", "priceIn": 16 } ] }
+    { "provider": "InWorld",     "models": [
+      { "id": "inworld-tts-2", "priceIn": 25 }
+    ] },
+    { "provider": "ElevenLabs",  "models": [
+      { "id": "eleven_multilingual_v2", "priceIn": 100 }
+    ] },
+    { "provider": "GoogleCloud", "models": [
+      { "id": "neural2", "priceIn": 16 }
+    ] },
+    { "provider": "Azure",       "models": [
+      { "id": "neural", "priceIn": 16 }
+    ] }
   ],
   "stt": [
     { "provider": "AssemblyAI",   "models": [
       { "id": "universal-2", "priceIn": 0.0025 },
       { "id": "universal-3-5-pro"}
     ] },
-    { "provider": "Gladia",       "models": [ { "id": "default", "priceIn": 0.0102 } ] },
-    { "provider": "Deepgram",     "models": [ { "id": "nova-3", "priceIn": 0.0043 } ] },
-    { "provider": "Speechmatics", "models": [ { "id": "enhanced", "priceIn": 0.004 } ] },
-    { "provider": "ElevenLabs",   "models": [ { "id": "scribe_v1", "priceIn": 0.0037 } ] },
-    { "provider": "RevAI",        "models": [ { "id": "reverb", "priceIn": 0.003 } ] }
+    { "provider": "Gladia",       "models": [
+      { "id": "default", "priceIn": 0.0102 }
+    ] },
+    { "provider": "Deepgram",     "models": [ 
+      { "id": "nova-3", "priceIn": 0.0043 }
+    ] },
+    { "provider": "Speechmatics", "models": [ 
+      { "id": "enhanced", "priceIn": 0.004 }
+    ] },
+    { "provider": "ElevenLabs",   "models": [ 
+      { "id": "scribe_v1", "priceIn": 0.0037 }
+    ] },
+    { "provider": "RevAI",        "models": [ 
+      { "id": "reverb", "priceIn": 0.003 }
+    ] }
   ]
 }
