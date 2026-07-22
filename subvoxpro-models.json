@@ -31,7 +31,8 @@
       { "id": "inworld-tts-2", "priceIn": 25 }
     ] },
     { "provider": "ElevenLabs",  "models": [
-      { "id": "eleven_multilingual_v2", "priceIn": 100 }
+      { "id": "eleven_multilingual_v2", "priceIn": 100 },
+      { "id": "eleven_v3", "priceIn": 100 }
     ] },
     { "provider": "GoogleCloud", "models": [
       { "id": "neural2", "priceIn": 16 }
@@ -55,7 +56,8 @@
       { "id": "enhanced", "priceIn": 0.004 }
     ] },
     { "provider": "ElevenLabs",   "models": [ 
-      { "id": "scribe_v1", "priceIn": 0.0037 }
+      { "id": "scribe_v1", "priceIn": 0.0037 },
+      { "id": "scribe_v2", "priceIn": 0.0037 }
     ] },
     { "provider": "RevAI",        "models": [ 
       { "id": "reverb", "priceIn": 0.003 }
