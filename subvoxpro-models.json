@@ -5,7 +5,8 @@
     { "provider": "OpenAI", "models": [
       { "id": "gpt-4o-mini",  "priceIn": 0.15, "priceOut": 0.60 },
       { "id": "gpt-4.1-mini", "priceIn": 0.40, "priceOut": 1.60 },
-      { "id": "gpt-4.1-nano", "priceIn": 0.10, "priceOut": 0.40 }
+      { "id": "gpt-4.1-nano", "priceIn": 0.10, "priceOut": 0.40 },
+      { "id": "gpt-5.4-nano", "priceIn": 0.20, "priceOut": 1.25 }
     ] },
     { "provider": "Claude", "models": [
       { "id": "claude-haiku-4-5",  "priceIn": 1, "priceOut": 5 },
