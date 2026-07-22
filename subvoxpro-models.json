@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-21",
+  "updatedAt": "2026-07-22",
   "translation": [
     { "provider": "OpenAI", "models": [
       { "id": "gpt-4o-mini",  "priceIn": 0.15, "priceOut": 0.60 },
@@ -43,24 +43,24 @@
   ],
   "stt": [
     { "provider": "AssemblyAI",   "models": [
-      { "id": "universal-2", "priceIn": 0.0025 },
+      { "id": "universal-2", "priceIn": 0.15 },
       { "id": "universal-3-5-pro"}
     ] },
     { "provider": "Gladia",       "models": [
-      { "id": "default", "priceIn": 0.0102 }
+      { "id": "default", "priceIn": 0.612 }
     ] },
     { "provider": "Deepgram",     "models": [ 
-      { "id": "nova-3", "priceIn": 0.0043 }
+      { "id": "nova-3", "priceIn": 0.258 }
     ] },
     { "provider": "Speechmatics", "models": [ 
-      { "id": "enhanced", "priceIn": 0.004 }
+      { "id": "enhanced", "priceIn": 0.24 }
     ] },
     { "provider": "ElevenLabs",   "models": [ 
-      { "id": "scribe_v1", "priceIn": 0.0037 },
-      { "id": "scribe_v2", "priceIn": 0.0037 }
+      { "id": "scribe_v1", "priceIn": 0.222 },
+      { "id": "scribe_v2", "priceIn": 0.222 }
     ] },
     { "provider": "RevAI",        "models": [ 
-      { "id": "reverb", "priceIn": 0.003 }
+      { "id": "reverb", "priceIn": 0.18 }
     ] }
   ]
 }

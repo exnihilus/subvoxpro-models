@@ -21,7 +21,7 @@ on a schema change), commit to `main`. Clients pick it up on their next launch/r
 ```jsonc
 {
   "version": 1,              // schema version — bump only when the shape changes
-  "updatedAt": "2026-07-21", // free-form date, shown in the editor as "updated on…"
+  "updatedAt": "2026-07-22", // free-form date, shown in the editor as "updated on…"
 
   "translation": [
     { "provider": "OpenAI", "models": [ { "id": "gpt-4o-mini", "priceIn": 0.15, "priceOut": 0.60 } ] }
@@ -37,7 +37,7 @@ provider, append an entry to its `models` array; to add a provider, append a new
 - **`id`** (required) — the exact model identifier sent to the provider API.
 - **`priceIn`** (optional) — price shown in the dropdown. For LLMs it is USD per **1M input
   tokens**; for DeepL/Google Translate USD per **1M characters**; for TTS USD per **1M
-  characters**; for STT USD per **audio minute**. The editor appends the right unit.
+  characters**; for STT USD per **audio hour**. The editor appends the right unit.
 - **`priceOut`** (optional) — USD per **1M output tokens** (LLM providers only).
 
 Prices are optional — a model with no price simply shows its name. They exist to make the
