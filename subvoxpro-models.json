@@ -44,7 +44,7 @@
   "stt": [
     { "provider": "AssemblyAI",   "models": [
       { "id": "universal-2", "priceIn": 0.15 },
-      { "id": "universal-3-5-pro"}
+      { "id": "universal-3-5-pro", "priceIn": 0.21}
     ] },
     { "provider": "Gladia",       "models": [
       { "id": "default", "priceIn": 0.612 }
