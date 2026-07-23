@@ -1,0 +1,203 @@
+{
+  "version": 1,
+  "updatedAt": "2026-07-23",
+  "packages": [
+    {
+      "id": "whisper-large-v2",
+      "displayName": "Faster Whisper Large V2",
+      "version": "f0fe81560cb8b68660e564f55dd99207059c092e",
+      "assets": [
+        {
+          "id": "config",
+          "path": "config.json",
+          "url": "https://huggingface.co/Systran/faster-whisper-large-v2/resolve/f0fe81560cb8b68660e564f55dd99207059c092e/config.json",
+          "size": 2796,
+          "sha256": "d86b7a7664a12559d644aa210a32ce9a7e03913e794b7ea4fb7182de69e273a7"
+        },
+        {
+          "id": "model",
+          "path": "model.bin",
+          "url": "https://huggingface.co/Systran/faster-whisper-large-v2/resolve/f0fe81560cb8b68660e564f55dd99207059c092e/model.bin",
+          "size": 3086912962,
+          "sha256": "bf2a9746382e1aa7ffff6b3a0d137ed9edbd9670c3b87e5d35f5e85e70d0333a"
+        },
+        {
+          "id": "tokenizer",
+          "path": "tokenizer.json",
+          "url": "https://huggingface.co/Systran/faster-whisper-large-v2/resolve/f0fe81560cb8b68660e564f55dd99207059c092e/tokenizer.json",
+          "size": 2203239,
+          "sha256": "fb7b63191e9bb045082c79fd742a3106a12c99513ab30df4a0d47fa6cb6fd0ab"
+        },
+        {
+          "id": "vocabulary",
+          "path": "vocabulary.txt",
+          "url": "https://huggingface.co/Systran/faster-whisper-large-v2/resolve/f0fe81560cb8b68660e564f55dd99207059c092e/vocabulary.txt",
+          "size": 459861,
+          "sha256": "34ce3fe1c5041027b3f8d42912270993f986dbc4bb34cf27f951e34a1e453913"
+        }
+      ]
+    },
+    {
+      "id": "whisper-large-v3",
+      "displayName": "Faster Whisper Large V3",
+      "version": "edaa852ec7e145841d8ffdb056a99866b5f0a478",
+      "assets": [
+        {
+          "id": "config",
+          "path": "config.json",
+          "url": "https://huggingface.co/Systran/faster-whisper-large-v3/resolve/edaa852ec7e145841d8ffdb056a99866b5f0a478/config.json",
+          "size": 2394,
+          "sha256": "a9306624f5ec14270a014b647e5c316b6e03a662c369758d1b90697a7b0655b9"
+        },
+        {
+          "id": "model",
+          "path": "model.bin",
+          "url": "https://huggingface.co/Systran/faster-whisper-large-v3/resolve/edaa852ec7e145841d8ffdb056a99866b5f0a478/model.bin",
+          "size": 3087284237,
+          "sha256": "69f74147e3334731bc3a76048724833325d2ec74642fb52620eda87352e3d4f1"
+        },
+        {
+          "id": "preprocessor",
+          "path": "preprocessor_config.json",
+          "url": "https://huggingface.co/Systran/faster-whisper-large-v3/resolve/edaa852ec7e145841d8ffdb056a99866b5f0a478/preprocessor_config.json",
+          "size": 340,
+          "sha256": "7ccc62c6f2765af1f3b46c00c9b5894426835a05021c8b9c01eecb6dfb542711"
+        },
+        {
+          "id": "tokenizer",
+          "path": "tokenizer.json",
+          "url": "https://huggingface.co/Systran/faster-whisper-large-v3/resolve/edaa852ec7e145841d8ffdb056a99866b5f0a478/tokenizer.json",
+          "size": 2480617,
+          "sha256": "6d8cbd7cd0d8d5815e478dac67b85a26bbe77c1f5e0c6d76d1ce2abc0e5f21ca"
+        },
+        {
+          "id": "vocabulary",
+          "path": "vocabulary.json",
+          "url": "https://huggingface.co/Systran/faster-whisper-large-v3/resolve/edaa852ec7e145841d8ffdb056a99866b5f0a478/vocabulary.json",
+          "size": 1068114,
+          "sha256": "c69260f2ab26d659b7c398f9a2b2b48ed0df16c3b47d7326782fd9cba71690c1"
+        }
+      ]
+    },
+    {
+      "id": "kokoro-v1.0",
+      "displayName": "Kokoro 82M v1.0",
+      "version": "model-files-v1.0",
+      "assets": [
+        {
+          "id": "model",
+          "path": "kokoro-v1.0.onnx",
+          "url": "https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/kokoro-v1.0.onnx",
+          "size": 325532387,
+          "sha256": "7d5df8ecf7d4b1878015a32686053fd0eebe2bc377234608764cc0ef3636a6c5"
+        },
+        {
+          "id": "voices",
+          "path": "voices-v1.0.bin",
+          "url": "https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/voices-v1.0.bin",
+          "size": 28214398,
+          "sha256": "bca610b8308e8d99f32e6fe4197e7ec01679264efed0cac9140fe9c29f1fbf7d"
+        },
+        {
+          "id": "config",
+          "path": "config.json",
+          "url": "https://huggingface.co/hexgrad/Kokoro-82M/resolve/f3ff3571791e39611d31c381e3a41a3af07b4987/config.json",
+          "size": 2351,
+          "sha256": "5abb01e2403b072bf03d04fde160443e209d7a0dad49a423be15196b9b43c17f"
+        },
+        {
+          "id": "us-gold",
+          "path": "dict/us_gold.json",
+          "url": "https://raw.githubusercontent.com/hexgrad/misaki/fba1236595f2d2bf21d414ba6e57d25256afada3/misaki/data/us_gold.json",
+          "size": 3000469,
+          "sha256": "dc414872a49a28ae6c141463d502fd945f3b2fde040484fdc47d00cc4612686f"
+        },
+        {
+          "id": "us-silver",
+          "path": "dict/us_silver.json",
+          "url": "https://raw.githubusercontent.com/hexgrad/misaki/fba1236595f2d2bf21d414ba6e57d25256afada3/misaki/data/us_silver.json",
+          "size": 3099517,
+          "sha256": "de8f67be911bb6c659187b4a65fd966b6a30e56350e0f790d763210b053ac475"
+        },
+        {
+          "id": "gb-gold",
+          "path": "dict/gb_gold.json",
+          "url": "https://raw.githubusercontent.com/hexgrad/misaki/fba1236595f2d2bf21d414ba6e57d25256afada3/misaki/data/gb_gold.json",
+          "size": 2838552,
+          "sha256": "29e62f4b60261c88f7f3c2c7811ca3825978948090b72d2b27d565b729282f71"
+        },
+        {
+          "id": "gb-silver",
+          "path": "dict/gb_silver.json",
+          "url": "https://raw.githubusercontent.com/hexgrad/misaki/fba1236595f2d2bf21d414ba6e57d25256afada3/misaki/data/gb_silver.json",
+          "size": 3663898,
+          "sha256": "48131e2d92ccc41655f4543e87e0f938e71463eb5a54be7f0693bb712ebb6bce"
+        }
+      ]
+    },
+    {
+      "id": "qwen3-forced-aligner-0.6b-q4",
+      "displayName": "Qwen3 Forced Aligner 0.6B Q4 ONNX",
+      "version": "dfae9e3dfb8a00410d8771158fafb01bac3fe2a5",
+      "assets": [
+        {
+          "id": "model",
+          "path": "model_q4.onnx",
+          "url": "https://huggingface.co/tonythethompson/Qwen3-ForcedAligner-0.6B-ONNX/resolve/dfae9e3dfb8a00410d8771158fafb01bac3fe2a5/onnx/model_q4.onnx",
+          "size": 1048397349,
+          "sha256": "59b528896d70b34e57838e160d16d5f7cfc02d86c7c6ad46cdc57c25c15497b7"
+        },
+        {
+          "id": "config",
+          "path": "config.json",
+          "url": "https://huggingface.co/tonythethompson/Qwen3-ForcedAligner-0.6B-ONNX/resolve/dfae9e3dfb8a00410d8771158fafb01bac3fe2a5/config.json",
+          "size": 5725,
+          "sha256": "91f38394bd8117ad2ccbdfc0942d9c100a7482d4c43688674ef2a40fe64eb061"
+        },
+        {
+          "id": "preprocessor",
+          "path": "preprocessor_config.json",
+          "url": "https://huggingface.co/tonythethompson/Qwen3-ForcedAligner-0.6B-ONNX/resolve/dfae9e3dfb8a00410d8771158fafb01bac3fe2a5/preprocessor_config.json",
+          "size": 357,
+          "sha256": "0443a40d411d3caad769e7b59971fa6eae75926ed4b7e337e60da909eb38c1f7"
+        },
+        {
+          "id": "tokenizer-config",
+          "path": "tokenizer_config.json",
+          "url": "https://huggingface.co/tonythethompson/Qwen3-ForcedAligner-0.6B-ONNX/resolve/dfae9e3dfb8a00410d8771158fafb01bac3fe2a5/tokenizer_config.json",
+          "size": 12696,
+          "sha256": "bee4786e25db33d3e8acb4c7a37c4ccf8d5a3d843b9cafb75a91d4ba774ad38f"
+        },
+        {
+          "id": "special-tokens",
+          "path": "special_tokens_map.json",
+          "url": "https://huggingface.co/tonythethompson/Qwen3-ForcedAligner-0.6B-ONNX/resolve/dfae9e3dfb8a00410d8771158fafb01bac3fe2a5/special_tokens_map.json",
+          "size": 1008,
+          "sha256": "7b376c510ccf9d88bb9bbee41dfc5052122e16e0dec1124a8d8983c59259a9f3"
+        },
+        {
+          "id": "added-tokens",
+          "path": "added_tokens.json",
+          "url": "https://huggingface.co/tonythethompson/Qwen3-ForcedAligner-0.6B-ONNX/resolve/dfae9e3dfb8a00410d8771158fafb01bac3fe2a5/added_tokens.json",
+          "size": 1591,
+          "sha256": "85afd03b7a7a9b0a97edf2b0e5dd9b0bf8770e05b0323268c0f1a3e5190cfa6f"
+        },
+        {
+          "id": "vocab",
+          "path": "vocab.json",
+          "url": "https://huggingface.co/tonythethompson/Qwen3-ForcedAligner-0.6B-ONNX/resolve/dfae9e3dfb8a00410d8771158fafb01bac3fe2a5/vocab.json",
+          "size": 2776833,
+          "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+        },
+        {
+          "id": "merges",
+          "path": "merges.txt",
+          "url": "https://huggingface.co/tonythethompson/Qwen3-ForcedAligner-0.6B-ONNX/resolve/dfae9e3dfb8a00410d8771158fafb01bac3fe2a5/merges.txt",
+          "size": 1671853,
+          "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+        }
+      ]
+    }
+  ]
+}
+
