@@ -40,12 +40,6 @@
     ] },
     { "provider": "Azure",       "models": [
       { "id": "neural", "priceIn": 16 }
-    ] },
-    { "provider": "OpenAI", "models": [
-      { "id": "gpt-transcribe", "priceIn": 0.27 },
-      { "id": "gpt-4o-transcribe", "priceIn": 0.36 },
-      { "id": "gpt-4o-mini-transcribe", "priceIn": 0.18 },
-      { "id": "whisper-1", "priceIn": 0.36 }
     ] }
   ],
   "stt": [
@@ -68,6 +62,12 @@
     ] },
     { "provider": "RevAI",        "models": [ 
       { "id": "reverb", "priceIn": 0.18 }
+    ] },
+    { "provider": "OpenAI", "models": [
+      { "id": "gpt-transcribe", "priceIn": 0.27 },
+      { "id": "gpt-4o-transcribe", "priceIn": 0.36 },
+      { "id": "gpt-4o-mini-transcribe", "priceIn": 0.18 },
+      { "id": "whisper-1", "priceIn": 0.36 }
     ] }
   ]
 }
