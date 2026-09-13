@@ -37,18 +37,18 @@ AppData, and falls back to its bundled copy when offline.
 ```jsonc
 {
   "version": 1,
-  "updatedAt": "2026-07-23",
+  "updatedAt": "2026-09-13",
   "packages": [
     {
-      "id": "whisper-large-v3",
-      "displayName": "Faster Whisper Large V3",
+      "id": "whisper-cpp-large-v3-turbo",
+      "displayName": "Whisper Large V3 Turbo (ggml)",
       "version": "pinned upstream revision",
       "assets": [
         {
           "id": "model",
-          "path": "model.bin",
-          "url": "https://download-host/model.bin",
-          "size": 3087284237,
+          "path": "ggml-large-v3-turbo.bin",
+          "url": "https://download-host/ggml-large-v3-turbo.bin",
+          "size": 1624555275,
           "sha256": "..."
         }
       ]
