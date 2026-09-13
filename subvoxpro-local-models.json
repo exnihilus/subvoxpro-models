@@ -1,81 +1,46 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-23",
+  "updatedAt": "2026-09-13",
   "packages": [
     {
-      "id": "whisper-large-v2",
-      "displayName": "Faster Whisper Large V2",
-      "version": "f0fe81560cb8b68660e564f55dd99207059c092e",
+      "id": "whisper-cpp-large-v2",
+      "displayName": "Whisper Large V2 (ggml)",
+      "version": "5359861c739e955e79d9a303bcbc70fb988958b1",
       "assets": [
         {
-          "id": "config",
-          "path": "config.json",
-          "url": "https://huggingface.co/Systran/faster-whisper-large-v2/resolve/f0fe81560cb8b68660e564f55dd99207059c092e/config.json",
-          "size": 2796,
-          "sha256": "d86b7a7664a12559d644aa210a32ce9a7e03913e794b7ea4fb7182de69e273a7"
-        },
-        {
           "id": "model",
-          "path": "model.bin",
-          "url": "https://huggingface.co/Systran/faster-whisper-large-v2/resolve/f0fe81560cb8b68660e564f55dd99207059c092e/model.bin",
-          "size": 3086912962,
-          "sha256": "bf2a9746382e1aa7ffff6b3a0d137ed9edbd9670c3b87e5d35f5e85e70d0333a"
-        },
-        {
-          "id": "tokenizer",
-          "path": "tokenizer.json",
-          "url": "https://huggingface.co/Systran/faster-whisper-large-v2/resolve/f0fe81560cb8b68660e564f55dd99207059c092e/tokenizer.json",
-          "size": 2203239,
-          "sha256": "fb7b63191e9bb045082c79fd742a3106a12c99513ab30df4a0d47fa6cb6fd0ab"
-        },
-        {
-          "id": "vocabulary",
-          "path": "vocabulary.txt",
-          "url": "https://huggingface.co/Systran/faster-whisper-large-v2/resolve/f0fe81560cb8b68660e564f55dd99207059c092e/vocabulary.txt",
-          "size": 459861,
-          "sha256": "34ce3fe1c5041027b3f8d42912270993f986dbc4bb34cf27f951e34a1e453913"
+          "path": "ggml-large-v2.bin",
+          "url": "https://huggingface.co/ggerganov/whisper.cpp/resolve/5359861c739e955e79d9a303bcbc70fb988958b1/ggml-large-v2.bin",
+          "size": 3094623691,
+          "sha256": "9a423fe4d40c82774b6af34115b8b935f34152246eb19e80e376071d3f999487"
         }
       ]
     },
     {
-      "id": "whisper-large-v3",
-      "displayName": "Faster Whisper Large V3",
-      "version": "edaa852ec7e145841d8ffdb056a99866b5f0a478",
+      "id": "whisper-cpp-large-v3",
+      "displayName": "Whisper Large V3 (ggml)",
+      "version": "5359861c739e955e79d9a303bcbc70fb988958b1",
       "assets": [
         {
-          "id": "config",
-          "path": "config.json",
-          "url": "https://huggingface.co/Systran/faster-whisper-large-v3/resolve/edaa852ec7e145841d8ffdb056a99866b5f0a478/config.json",
-          "size": 2394,
-          "sha256": "a9306624f5ec14270a014b647e5c316b6e03a662c369758d1b90697a7b0655b9"
-        },
+          "id": "model",
+          "path": "ggml-large-v3.bin",
+          "url": "https://huggingface.co/ggerganov/whisper.cpp/resolve/5359861c739e955e79d9a303bcbc70fb988958b1/ggml-large-v3.bin",
+          "size": 3095033483,
+          "sha256": "64d182b440b98d5203c4f9bd541544d84c605196c4f7b845dfa11fb23594d1e2"
+        }
+      ]
+    },
+    {
+      "id": "whisper-cpp-large-v3-turbo",
+      "displayName": "Whisper Large V3 Turbo (ggml)",
+      "version": "5359861c739e955e79d9a303bcbc70fb988958b1",
+      "assets": [
         {
           "id": "model",
-          "path": "model.bin",
-          "url": "https://huggingface.co/Systran/faster-whisper-large-v3/resolve/edaa852ec7e145841d8ffdb056a99866b5f0a478/model.bin",
-          "size": 3087284237,
-          "sha256": "69f74147e3334731bc3a76048724833325d2ec74642fb52620eda87352e3d4f1"
-        },
-        {
-          "id": "preprocessor",
-          "path": "preprocessor_config.json",
-          "url": "https://huggingface.co/Systran/faster-whisper-large-v3/resolve/edaa852ec7e145841d8ffdb056a99866b5f0a478/preprocessor_config.json",
-          "size": 340,
-          "sha256": "7ccc62c6f2765af1f3b46c00c9b5894426835a05021c8b9c01eecb6dfb542711"
-        },
-        {
-          "id": "tokenizer",
-          "path": "tokenizer.json",
-          "url": "https://huggingface.co/Systran/faster-whisper-large-v3/resolve/edaa852ec7e145841d8ffdb056a99866b5f0a478/tokenizer.json",
-          "size": 2480617,
-          "sha256": "6d8cbd7cd0d8d5815e478dac67b85a26bbe77c1f5e0c6d76d1ce2abc0e5f21ca"
-        },
-        {
-          "id": "vocabulary",
-          "path": "vocabulary.json",
-          "url": "https://huggingface.co/Systran/faster-whisper-large-v3/resolve/edaa852ec7e145841d8ffdb056a99866b5f0a478/vocabulary.json",
-          "size": 1068114,
-          "sha256": "c69260f2ab26d659b7c398f9a2b2b48ed0df16c3b47d7326782fd9cba71690c1"
+          "path": "ggml-large-v3-turbo.bin",
+          "url": "https://huggingface.co/ggerganov/whisper.cpp/resolve/5359861c739e955e79d9a303bcbc70fb988958b1/ggml-large-v3-turbo.bin",
+          "size": 1624555275,
+          "sha256": "1fc70f774d38eb169993ac391eea357ef47c88757ef72ee5943879b7e8e2bc69"
         }
       ]
     },
@@ -200,4 +165,3 @@
     }
   ]
 }
-
