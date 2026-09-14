@@ -63,6 +63,14 @@ AppData, and falls back to its bundled copy when offline.
 - **`url`** — replaceable HTTPS download URL.
 - **`size` / `sha256`** — exact integrity checks; partial downloads are resumed and verified before activation.
 
+### Files hosted in this repository
+
+Most local-model assets are downloaded from their upstream hosts. The only derived files kept here are the
+24 graphs in [`chatterbox-multilingual/`](chatterbox-multilingual/NOTICE.md): the Chatterbox Multilingual
+ONNX decoder graph split with [`tools/split_chatterbox_decoder.py`](tools/split_chatterbox_decoder.py) so ONNX
+Runtime loads it in seconds. They hold no weights (those stay in the upstream `conditional_decoder.onnx_data`)
+and must be referenced by commit SHA in the manifest, never by `main`.
+
 ## Format
 
 ```jsonc
