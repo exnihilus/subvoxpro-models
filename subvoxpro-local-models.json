@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-14",
+  "updatedAt": "2026-09-17",
   "packages": [
     {
       "id": "whisper-cpp-large-v2",
@@ -405,6 +405,48 @@
           "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/05e84d87ca0ff322390f37f729c8d8f4572d1c9f/chatterbox-multilingual/conditional_decoder.part23.onnx",
           "size": 239556,
           "sha256": "c1c5eee9f8c34c8d9b05a0e9cbd16feac441a0a888ddabf984e87aa4c48f3d25"
+        }
+      ]
+    },
+    {
+      "id": "ipadic-japanese-reading",
+      "displayName": "IPADIC 2.7.0 Japanese readings",
+      "version": "61b90ba6e669dc2d7d533d4a80d206f3b31d52b1",
+      "assets": [
+        {
+          "id": "lexicon",
+          "path": "ipadic/lexicon.tsv.gz",
+          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/c6d755491e6227f8c8fb0dc2065956f53a26f33e/ipadic/lexicon.tsv.gz",
+          "size": 4072966,
+          "sha256": "20079b18e30dc5409395c36ac3d66733e57761440295484c538ed2d2157b16a8"
+        },
+        {
+          "id": "matrix",
+          "path": "ipadic/matrix.bin.gz",
+          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/c6d755491e6227f8c8fb0dc2065956f53a26f33e/ipadic/matrix.bin.gz",
+          "size": 1674851,
+          "sha256": "d22403ba0d0d215bfe5f56a7874d8210e77091a07ff63dbc86284dd367152af3"
+        },
+        {
+          "id": "character-definitions",
+          "path": "ipadic/char.def",
+          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/c6d755491e6227f8c8fb0dc2065956f53a26f33e/ipadic/char.def",
+          "size": 4109,
+          "sha256": "0c0340faa677d2bc6d89fec279d49e9663ab26f23c3e0acdac2f9d2ba6ad372a"
+        },
+        {
+          "id": "unknown-definitions",
+          "path": "ipadic/unk.def",
+          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/c6d755491e6227f8c8fb0dc2065956f53a26f33e/ipadic/unk.def",
+          "size": 2198,
+          "sha256": "5361b46fc49530de6b6de79714e5f8a350055b338e1cf99e4530753f95cba548"
+        },
+        {
+          "id": "license",
+          "path": "ipadic/COPYING",
+          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/c6d755491e6227f8c8fb0dc2065956f53a26f33e/ipadic/COPYING",
+          "size": 3792,
+          "sha256": "0cc49a2743d845a9f3ea44ec3d7a6acc0aa8f0380772020310f3389713c45cbc"
         }
       ]
     }
