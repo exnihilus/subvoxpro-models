@@ -65,11 +65,14 @@ AppData, and falls back to its bundled copy when offline.
 
 ### Files hosted in this repository
 
-Most local-model assets are downloaded from their upstream hosts. The only derived files kept here are the
+Most local-model assets are downloaded from their upstream hosts. The derived files kept here are the
 24 graphs in [`chatterbox-multilingual/`](chatterbox-multilingual/NOTICE.md): the Chatterbox Multilingual
 ONNX decoder graph split with [`tools/split_chatterbox_decoder.py`](tools/split_chatterbox_decoder.py) so ONNX
 Runtime loads it in seconds. They hold no weights (those stay in the upstream `conditional_decoder.onnx_data`)
 and must be referenced by commit SHA in the manifest, never by `main`.
+
+[`ipadic/`](ipadic/NOTICE.md) holds the mecab-ipadic 2.7.0 dictionary converted to UTF-8 by
+[`tools/convert_ipadic.py`](tools/convert_ipadic.py), used for Japanese readings; its license is kept in `ipadic/COPYING`.
 
 ## Format
 
