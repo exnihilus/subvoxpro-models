@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-22",
+  "updatedAt": "2026-09-23",
   "translation": [
     { "provider": "OpenAI", "models": [
       { "id": "gpt-4o-mini",  "priceIn": 0.15, "priceOut": 0.60 },
@@ -33,13 +33,24 @@
     ] },
     { "provider": "ElevenLabs",  "models": [
       { "id": "eleven_multilingual_v2", "priceIn": 100 },
-      { "id": "eleven_v3", "priceIn": 100 }
+      { "id": "eleven_v3", "priceIn": 100 },
+      { "id": "eleven_flash_v2_5", "priceIn": 50 }
     ] },
     { "provider": "GoogleCloud", "models": [
       { "id": "neural2", "priceIn": 16 }
     ] },
     { "provider": "Azure",       "models": [
       { "id": "neural", "priceIn": 16 }
+    ] },
+    { "provider": "Gemini",      "models": [
+      { "id": "gemini-3.1-flash-tts-preview", "priceIn": 18 },
+      { "id": "gemini-2.5-flash-preview-tts", "priceIn": 9 },
+      { "id": "gemini-2.5-pro-preview-tts", "priceIn": 18 }
+    ] },
+    { "provider": "OpenAI",      "models": [
+      { "id": "gpt-4o-mini-tts", "priceIn": 15 },
+      { "id": "tts-1", "priceIn": 15 },
+      { "id": "tts-1-hd", "priceIn": 30 }
     ] }
   ],
   "stt": [
