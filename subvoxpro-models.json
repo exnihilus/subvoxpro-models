@@ -1,24 +1,29 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-23",
+  "updatedAt": "2026-09-26",
   "translation": [
     { "provider": "OpenAI", "models": [
+      { "id": "gpt-5.6-luna", "priceIn": 0.20, "priceOut": 1.20 },
+      { "id": "gpt-5-mini",   "priceIn": 0.25, "priceOut": 2.00 },
+      { "id": "gpt-5-nano",   "priceIn": 0.05, "priceOut": 0.40 },
       { "id": "gpt-4o-mini",  "priceIn": 0.15, "priceOut": 0.60 },
       { "id": "gpt-4.1-mini", "priceIn": 0.40, "priceOut": 1.60 },
-      { "id": "gpt-4.1-nano", "priceIn": 0.10, "priceOut": 0.40 },
-      { "id": "gpt-5.4-nano", "priceIn": 0.20, "priceOut": 1.25 }
+      { "id": "gpt-4.1-nano", "priceIn": 0.10, "priceOut": 0.40 }
     ] },
     { "provider": "Claude", "models": [
       { "id": "claude-haiku-4-5",  "priceIn": 1, "priceOut": 5 },
+      { "id": "claude-sonnet-5",   "priceIn": 2, "priceOut": 10 },
       { "id": "claude-sonnet-4-6", "priceIn": 3, "priceOut": 15 }
     ] },
     { "provider": "Gemini", "models": [
-      { "id": "gemini-3.1-flash-lite", "priceIn": 0.10, "priceOut": 0.40 },
       { "id": "gemini-2.5-flash-lite", "priceIn": 0.10, "priceOut": 0.40 },
+      { "id": "gemini-3.1-flash-lite", "priceIn": 0.25, "priceOut": 1.50 },
+      { "id": "gemini-3.5-flash-lite", "priceIn": 0.30, "priceOut": 2.50 },
       { "id": "gemini-2.5-flash",      "priceIn": 0.30, "priceOut": 2.50 }
     ] },
     { "provider": "DeepSeek", "models": [
-      { "id": "deepseek-v4-flash", "priceIn": 0.14, "priceOut": 0.28 }
+      { "id": "deepseek-flash",  "priceIn": 0.30, "priceOut": 1.20 },
+      { "id": "deepseek-v4-pro", "priceIn": 1.32, "priceOut": 3.96 }
     ] },
     { "provider": "DeepL", "models": [
       { "id": "deepl", "priceIn": 25 }
