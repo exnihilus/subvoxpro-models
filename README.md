@@ -74,6 +74,11 @@ and must be referenced by commit SHA in the manifest, never by `main`.
 [`ipadic/`](ipadic/NOTICE.md) holds the mecab-ipadic 2.7.0 dictionary converted to UTF-8 by
 [`tools/convert_ipadic.py`](tools/convert_ipadic.py), used for Japanese readings; its license is kept in `ipadic/COPYING`.
 
+[`chatterbox-voices/`](chatterbox-voices/NOTICE.md) holds the Chatterbox voice pack: 24 reference clips (12 female,
+12 male) cut from LibriTTS-R (CC BY 4.0) and listed in `voices.json`. They are part of the
+`chatterbox-multilingual-onnx` package, referenced by commit SHA like the decoder graphs. SubVox Pro builds them with
+its dev tool `Tools/VoicePack/build_chatterbox_voice_pack.py`.
+
 ## Format
 
 ```jsonc
