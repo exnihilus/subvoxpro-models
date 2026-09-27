@@ -1,0 +1,148 @@
+{
+  "voices": [
+    {
+      "file": "Amelia.wav",
+      "name": "Amelia",
+      "gender": "female",
+      "description": "Female voice, low pitch."
+    },
+    {
+      "file": "Clara.wav",
+      "name": "Clara",
+      "gender": "female",
+      "description": "Female voice, low pitch."
+    },
+    {
+      "file": "Elena.wav",
+      "name": "Elena",
+      "gender": "female",
+      "description": "Female voice, low pitch."
+    },
+    {
+      "file": "Grace.wav",
+      "name": "Grace",
+      "gender": "female",
+      "description": "Female voice, medium pitch."
+    },
+    {
+      "file": "Hannah.wav",
+      "name": "Hannah",
+      "gender": "female",
+      "description": "Female voice, medium pitch."
+    },
+    {
+      "file": "Iris.wav",
+      "name": "Iris",
+      "gender": "female",
+      "description": "Female voice, medium pitch."
+    },
+    {
+      "file": "Julia.wav",
+      "name": "Julia",
+      "gender": "female",
+      "description": "Female voice, medium pitch."
+    },
+    {
+      "file": "Laura.wav",
+      "name": "Laura",
+      "gender": "female",
+      "description": "Female voice, medium pitch."
+    },
+    {
+      "file": "Maya.wav",
+      "name": "Maya",
+      "gender": "female",
+      "description": "Female voice, high pitch."
+    },
+    {
+      "file": "Nora.wav",
+      "name": "Nora",
+      "gender": "female",
+      "description": "Female voice, high pitch."
+    },
+    {
+      "file": "Rose.wav",
+      "name": "Rose",
+      "gender": "female",
+      "description": "Female voice, high pitch."
+    },
+    {
+      "file": "Sofia.wav",
+      "name": "Sofia",
+      "gender": "female",
+      "description": "Female voice, high pitch."
+    },
+    {
+      "file": "Adrian.wav",
+      "name": "Adrian",
+      "gender": "male",
+      "description": "Male voice, deep pitch."
+    },
+    {
+      "file": "Arthur.wav",
+      "name": "Arthur",
+      "gender": "male",
+      "description": "Male voice, deep pitch."
+    },
+    {
+      "file": "Daniel.wav",
+      "name": "Daniel",
+      "gender": "male",
+      "description": "Male voice, deep pitch."
+    },
+    {
+      "file": "Elliot.wav",
+      "name": "Elliot",
+      "gender": "male",
+      "description": "Male voice, deep pitch."
+    },
+    {
+      "file": "Felix.wav",
+      "name": "Felix",
+      "gender": "male",
+      "description": "Male voice, medium pitch."
+    },
+    {
+      "file": "Henry.wav",
+      "name": "Henry",
+      "gender": "male",
+      "description": "Male voice, medium pitch."
+    },
+    {
+      "file": "Hugo.wav",
+      "name": "Hugo",
+      "gender": "male",
+      "description": "Male voice, medium pitch."
+    },
+    {
+      "file": "Leo.wav",
+      "name": "Leo",
+      "gender": "male",
+      "description": "Male voice, medium pitch."
+    },
+    {
+      "file": "Marcus.wav",
+      "name": "Marcus",
+      "gender": "male",
+      "description": "Male voice, light pitch."
+    },
+    {
+      "file": "Oscar.wav",
+      "name": "Oscar",
+      "gender": "male",
+      "description": "Male voice, light pitch."
+    },
+    {
+      "file": "Simon.wav",
+      "name": "Simon",
+      "gender": "male",
+      "description": "Male voice, light pitch."
+    },
+    {
+      "file": "Victor.wav",
+      "name": "Victor",
+      "gender": "male",
+      "description": "Male voice, light pitch."
+    }
+  ]
+}
