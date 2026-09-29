@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-27",
+  "updatedAt": "2026-09-29",
   "packages": [
     {
       "id": "whisper-cpp-large-v2",
@@ -216,6 +216,13 @@
           "url": "https://huggingface.co/onnx-community/chatterbox-multilingual-ONNX/resolve/452d3f434aa592098f1eedac9099f33642ab2da5/onnx/language_model.onnx_data",
           "size": 2080632832,
           "sha256": "b3556d41085196c122b7197e4d44ec4475b6d7cfe0971a70faa95caa38ad787a"
+        },
+        {
+          "id": "language-model-dml",
+          "path": "onnx/language_model_dml.onnx",
+          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/2343873386c1e1f0790d76b09fa95bf18c38dd10/chatterbox-multilingual/language_model_dml.onnx",
+          "size": 493817,
+          "sha256": "e1520a2289ab846b89c0004ab862425a9b353a99ec2beb06343a007fb25c8baf"
         },
         {
           "id": "speech-encoder",
