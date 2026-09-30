@@ -5,9 +5,14 @@ These 24 ONNX graph files are a mechanical split of `onnx/conditional_decoder.on
 at revision `452d3f434aa592098f1eedac9099f33642ab2da5`, produced with
 [`tools/split_chatterbox_decoder.py`](../tools/split_chatterbox_decoder.py) (`python split_chatterbox_decoder.py 24`).
 
+The six `conditional_decoder.groupNN.onnx` files, which SubVox Pro downloads, chain these 24 graphs four by four,
+unchanged, with [`tools/merge_chatterbox_decoder.py`](../tools/merge_chatterbox_decoder.py)
+(`python merge_chatterbox_decoder.py . 6`).
+
 They contain only graph structure: every weight still lives in the unmodified upstream
 `conditional_decoder.onnx_data`, downloaded from Hugging Face next to them. Splitting keeps ONNX Runtime
-session creation to a few seconds instead of more than a minute for the 24k-node graph.
+session creation to seconds instead of more than a minute for the 24k-node graph; six groups rather than 24
+graphs keep the GPU memory of the DirectML sessions low.
 
 - **Chatterbox** — Copyright (c) 2025 Resemble AI — MIT License — <https://github.com/resemble-ai/chatterbox>
 - **ONNX export** — onnx-community — MIT License
