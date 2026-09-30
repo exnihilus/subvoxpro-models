@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-29",
+  "updatedAt": "2026-09-30",
   "packages": [
     {
       "id": "whisper-cpp-large-v2",
@@ -246,172 +246,46 @@
           "sha256": "51d58345a272747665ec9d5bb61e01835258a940e321a288582ac4c18cf01b5a"
         },
         {
-          "id": "decoder-part00",
-          "path": "onnx/conditional_decoder.part00.onnx",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/05e84d87ca0ff322390f37f729c8d8f4572d1c9f/chatterbox-multilingual/conditional_decoder.part00.onnx",
-          "size": 213740,
-          "sha256": "1509748339ba60e2d417d975edf5c32ac3f65d5ffc73d0552c4cf7143a595264"
+          "id": "decoder-group00",
+          "path": "onnx/conditional_decoder.group00.onnx",
+          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/0ae47e53d4d09e113dcbffeed33e6608d41c4c29/chatterbox-multilingual/conditional_decoder.group00.onnx",
+          "size": 834597,
+          "sha256": "6b5f3552dd127a786b22966abdfa3abdb752a8b51452471cbd8ac510bc7442f7"
         },
         {
-          "id": "decoder-part01",
-          "path": "onnx/conditional_decoder.part01.onnx",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/05e84d87ca0ff322390f37f729c8d8f4572d1c9f/chatterbox-multilingual/conditional_decoder.part01.onnx",
-          "size": 199220,
-          "sha256": "cc6fe8e97386cd1c7da5206c6e435cf5a30c3d53a81fe66d046ee78d5716f4fa"
+          "id": "decoder-group01",
+          "path": "onnx/conditional_decoder.group01.onnx",
+          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/0ae47e53d4d09e113dcbffeed33e6608d41c4c29/chatterbox-multilingual/conditional_decoder.group01.onnx",
+          "size": 829222,
+          "sha256": "d6f9ef508349323af76ca489a8a614b6571e572bde595f3d9cc3daf11c842d31"
         },
         {
-          "id": "decoder-part02",
-          "path": "onnx/conditional_decoder.part02.onnx",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/05e84d87ca0ff322390f37f729c8d8f4572d1c9f/chatterbox-multilingual/conditional_decoder.part02.onnx",
-          "size": 223778,
-          "sha256": "10057909c04736081fbda7a6a1e857f404029dc292359dce7e06e3fbd920a99f"
+          "id": "decoder-group02",
+          "path": "onnx/conditional_decoder.group02.onnx",
+          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/0ae47e53d4d09e113dcbffeed33e6608d41c4c29/chatterbox-multilingual/conditional_decoder.group02.onnx",
+          "size": 831379,
+          "sha256": "de5b7cae9a53be205684e6cf91f2647a4d9bdc7dd536499f04870e99b1df58ee"
         },
         {
-          "id": "decoder-part03",
-          "path": "onnx/conditional_decoder.part03.onnx",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/05e84d87ca0ff322390f37f729c8d8f4572d1c9f/chatterbox-multilingual/conditional_decoder.part03.onnx",
-          "size": 226770,
-          "sha256": "bb310f60747d52d60570fd84f5543847a1435c603a09093c4fcdb0351dd34a67"
+          "id": "decoder-group03",
+          "path": "onnx/conditional_decoder.group03.onnx",
+          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/0ae47e53d4d09e113dcbffeed33e6608d41c4c29/chatterbox-multilingual/conditional_decoder.group03.onnx",
+          "size": 828657,
+          "sha256": "a39ac3ab7118160601b641a64f33d4e539a4cbdc695f84d87286cb4b73c2bbb3"
         },
         {
-          "id": "decoder-part04",
-          "path": "onnx/conditional_decoder.part04.onnx",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/05e84d87ca0ff322390f37f729c8d8f4572d1c9f/chatterbox-multilingual/conditional_decoder.part04.onnx",
-          "size": 231282,
-          "sha256": "5b60ea3d29c2e1d7f09d35b8de0c09ae30131fc9ece306d68aec5ab7b9190419"
+          "id": "decoder-group04",
+          "path": "onnx/conditional_decoder.group04.onnx",
+          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/0ae47e53d4d09e113dcbffeed33e6608d41c4c29/chatterbox-multilingual/conditional_decoder.group04.onnx",
+          "size": 829617,
+          "sha256": "f3b5899b6575cb06abb66d56367763ab56aa72d29de3a3e6ec75cc320d4cef9d"
         },
         {
-          "id": "decoder-part05",
-          "path": "onnx/conditional_decoder.part05.onnx",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/05e84d87ca0ff322390f37f729c8d8f4572d1c9f/chatterbox-multilingual/conditional_decoder.part05.onnx",
-          "size": 229336,
-          "sha256": "4d6335f2a5be4f733038e234d70e2ced464839e46a17a965fee553df168dc218"
-        },
-        {
-          "id": "decoder-part06",
-          "path": "onnx/conditional_decoder.part06.onnx",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/05e84d87ca0ff322390f37f729c8d8f4572d1c9f/chatterbox-multilingual/conditional_decoder.part06.onnx",
-          "size": 231150,
-          "sha256": "0aaffd9ee6b179ab1b88823ddcd87284ef78ec992f0ce765c36c6778d6e85e97"
-        },
-        {
-          "id": "decoder-part07",
-          "path": "onnx/conditional_decoder.part07.onnx",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/05e84d87ca0ff322390f37f729c8d8f4572d1c9f/chatterbox-multilingual/conditional_decoder.part07.onnx",
-          "size": 230024,
-          "sha256": "0436f9be8a370bed84f064b0c9ec0c4dfda09c58095c21d992447faa5c61010f"
-        },
-        {
-          "id": "decoder-part08",
-          "path": "onnx/conditional_decoder.part08.onnx",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/05e84d87ca0ff322390f37f729c8d8f4572d1c9f/chatterbox-multilingual/conditional_decoder.part08.onnx",
-          "size": 231277,
-          "sha256": "8a9d985172ca21764b606de98930cbcbaa79935253cde0fbccad1b04bc35b022"
-        },
-        {
-          "id": "decoder-part09",
-          "path": "onnx/conditional_decoder.part09.onnx",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/05e84d87ca0ff322390f37f729c8d8f4572d1c9f/chatterbox-multilingual/conditional_decoder.part09.onnx",
-          "size": 231063,
-          "sha256": "e7becc567f4b2fad606478ffd4376de031c654efc1102fb5ad8d61d3958d5287"
-        },
-        {
-          "id": "decoder-part10",
-          "path": "onnx/conditional_decoder.part10.onnx",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/05e84d87ca0ff322390f37f729c8d8f4572d1c9f/chatterbox-multilingual/conditional_decoder.part10.onnx",
-          "size": 229905,
-          "sha256": "ad10f3c37862d5d2c74cf080609aef986b79335828cc6d09315ff844714de9f7"
-        },
-        {
-          "id": "decoder-part11",
-          "path": "onnx/conditional_decoder.part11.onnx",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/05e84d87ca0ff322390f37f729c8d8f4572d1c9f/chatterbox-multilingual/conditional_decoder.part11.onnx",
-          "size": 231980,
-          "sha256": "2fc260dbeafb92c934b4904d3e58613335742f5dcf996133c8c2149326dd73c5"
-        },
-        {
-          "id": "decoder-part12",
-          "path": "onnx/conditional_decoder.part12.onnx",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/05e84d87ca0ff322390f37f729c8d8f4572d1c9f/chatterbox-multilingual/conditional_decoder.part12.onnx",
-          "size": 229799,
-          "sha256": "7e9c6097b168b29bafd3f1a40e346d0917c645d2fed7c29d1fec68c0cbeb28bc"
-        },
-        {
-          "id": "decoder-part13",
-          "path": "onnx/conditional_decoder.part13.onnx",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/05e84d87ca0ff322390f37f729c8d8f4572d1c9f/chatterbox-multilingual/conditional_decoder.part13.onnx",
-          "size": 230296,
-          "sha256": "576349dcf3b0af610c35cc63615b83f00b6b040b7507062138f26593aa10fe54"
-        },
-        {
-          "id": "decoder-part14",
-          "path": "onnx/conditional_decoder.part14.onnx",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/05e84d87ca0ff322390f37f729c8d8f4572d1c9f/chatterbox-multilingual/conditional_decoder.part14.onnx",
-          "size": 229382,
-          "sha256": "a4ef21a2f69874affe57e3a2d8ad5b14fd85dba63b6818f66bd1100cc74fdc79"
-        },
-        {
-          "id": "decoder-part15",
-          "path": "onnx/conditional_decoder.part15.onnx",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/05e84d87ca0ff322390f37f729c8d8f4572d1c9f/chatterbox-multilingual/conditional_decoder.part15.onnx",
-          "size": 231566,
-          "sha256": "c870874b488917d963872f0c5ee3a26c44fb0cd6f3716e130dde9a698becb68c"
-        },
-        {
-          "id": "decoder-part16",
-          "path": "onnx/conditional_decoder.part16.onnx",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/05e84d87ca0ff322390f37f729c8d8f4572d1c9f/chatterbox-multilingual/conditional_decoder.part16.onnx",
-          "size": 229937,
-          "sha256": "822ea4318d49cf68459e59e1465a80e475f8c541683c923c8d75344c223cb976"
-        },
-        {
-          "id": "decoder-part17",
-          "path": "onnx/conditional_decoder.part17.onnx",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/05e84d87ca0ff322390f37f729c8d8f4572d1c9f/chatterbox-multilingual/conditional_decoder.part17.onnx",
-          "size": 231275,
-          "sha256": "f4254592754716e633db49b35fd54ea74cdaa8a4d2e642e967bec7452a0a2584"
-        },
-        {
-          "id": "decoder-part18",
-          "path": "onnx/conditional_decoder.part18.onnx",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/05e84d87ca0ff322390f37f729c8d8f4572d1c9f/chatterbox-multilingual/conditional_decoder.part18.onnx",
-          "size": 229676,
-          "sha256": "830799fe996c357bb47d2c6987c9511633c2789dccc396233c83f067fd431aa5"
-        },
-        {
-          "id": "decoder-part19",
-          "path": "onnx/conditional_decoder.part19.onnx",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/05e84d87ca0ff322390f37f729c8d8f4572d1c9f/chatterbox-multilingual/conditional_decoder.part19.onnx",
-          "size": 231672,
-          "sha256": "4714a9b265d7f720af8967084d6c2a80f8757d006c134f3eed0ba4c9d1f9ecea"
-        },
-        {
-          "id": "decoder-part20",
-          "path": "onnx/conditional_decoder.part20.onnx",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/05e84d87ca0ff322390f37f729c8d8f4572d1c9f/chatterbox-multilingual/conditional_decoder.part20.onnx",
-          "size": 230400,
-          "sha256": "5fa7d23a6ef812edc116ac4837006793e43c547efcdc6d23e17f8331e6c6c507"
-        },
-        {
-          "id": "decoder-part21",
-          "path": "onnx/conditional_decoder.part21.onnx",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/05e84d87ca0ff322390f37f729c8d8f4572d1c9f/chatterbox-multilingual/conditional_decoder.part21.onnx",
-          "size": 231712,
-          "sha256": "08665fb8f33edeb2bdc927ad02e65c8928a833030c53659788f1653bc7f21655"
-        },
-        {
-          "id": "decoder-part22",
-          "path": "onnx/conditional_decoder.part22.onnx",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/05e84d87ca0ff322390f37f729c8d8f4572d1c9f/chatterbox-multilingual/conditional_decoder.part22.onnx",
-          "size": 231880,
-          "sha256": "e91ecd8f7dd08b30f391350ca656355f106946370896db712749ac93d0ce4cf2"
-        },
-        {
-          "id": "decoder-part23",
-          "path": "onnx/conditional_decoder.part23.onnx",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/05e84d87ca0ff322390f37f729c8d8f4572d1c9f/chatterbox-multilingual/conditional_decoder.part23.onnx",
-          "size": 239556,
-          "sha256": "c1c5eee9f8c34c8d9b05a0e9cbd16feac441a0a888ddabf984e87aa4c48f3d25"
+          "id": "decoder-group05",
+          "path": "onnx/conditional_decoder.group05.onnx",
+          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/0ae47e53d4d09e113dcbffeed33e6608d41c4c29/chatterbox-multilingual/conditional_decoder.group05.onnx",
+          "size": 885706,
+          "sha256": "e9233442ab5e1cff029ea313023875123fecd109272f6d707a3159a434d7831e"
         },
         {
           "id": "voice-amelia",
