@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-30",
+  "updatedAt": "2026-10-01",
   "packages": [
     {
       "id": "whisper-cpp-large-v2",
@@ -220,7 +220,7 @@
         {
           "id": "language-model-dml",
           "path": "onnx/language_model_dml.onnx",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/2343873386c1e1f0790d76b09fa95bf18c38dd10/chatterbox-multilingual/language_model_dml.onnx",
+          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/4d24d935c1ab72f409f2c4f011bbe2a319b6d087/chatterbox-multilingual/language_model_dml.onnx",
           "size": 493817,
           "sha256": "e1520a2289ab846b89c0004ab862425a9b353a99ec2beb06343a007fb25c8baf"
         },
@@ -248,217 +248,217 @@
         {
           "id": "decoder-group00",
           "path": "onnx/conditional_decoder.group00.onnx",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/0ae47e53d4d09e113dcbffeed33e6608d41c4c29/chatterbox-multilingual/conditional_decoder.group00.onnx",
+          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/2e5bcbe618fae6ab050cdedc74419c4bcb1ec299/chatterbox-multilingual/conditional_decoder.group00.onnx",
           "size": 834597,
           "sha256": "6b5f3552dd127a786b22966abdfa3abdb752a8b51452471cbd8ac510bc7442f7"
         },
         {
           "id": "decoder-group01",
           "path": "onnx/conditional_decoder.group01.onnx",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/0ae47e53d4d09e113dcbffeed33e6608d41c4c29/chatterbox-multilingual/conditional_decoder.group01.onnx",
+          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/2e5bcbe618fae6ab050cdedc74419c4bcb1ec299/chatterbox-multilingual/conditional_decoder.group01.onnx",
           "size": 829222,
           "sha256": "d6f9ef508349323af76ca489a8a614b6571e572bde595f3d9cc3daf11c842d31"
         },
         {
           "id": "decoder-group02",
           "path": "onnx/conditional_decoder.group02.onnx",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/0ae47e53d4d09e113dcbffeed33e6608d41c4c29/chatterbox-multilingual/conditional_decoder.group02.onnx",
+          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/2e5bcbe618fae6ab050cdedc74419c4bcb1ec299/chatterbox-multilingual/conditional_decoder.group02.onnx",
           "size": 831379,
           "sha256": "de5b7cae9a53be205684e6cf91f2647a4d9bdc7dd536499f04870e99b1df58ee"
         },
         {
           "id": "decoder-group03",
           "path": "onnx/conditional_decoder.group03.onnx",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/0ae47e53d4d09e113dcbffeed33e6608d41c4c29/chatterbox-multilingual/conditional_decoder.group03.onnx",
+          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/2e5bcbe618fae6ab050cdedc74419c4bcb1ec299/chatterbox-multilingual/conditional_decoder.group03.onnx",
           "size": 828657,
           "sha256": "a39ac3ab7118160601b641a64f33d4e539a4cbdc695f84d87286cb4b73c2bbb3"
         },
         {
           "id": "decoder-group04",
           "path": "onnx/conditional_decoder.group04.onnx",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/0ae47e53d4d09e113dcbffeed33e6608d41c4c29/chatterbox-multilingual/conditional_decoder.group04.onnx",
+          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/2e5bcbe618fae6ab050cdedc74419c4bcb1ec299/chatterbox-multilingual/conditional_decoder.group04.onnx",
           "size": 829617,
           "sha256": "f3b5899b6575cb06abb66d56367763ab56aa72d29de3a3e6ec75cc320d4cef9d"
         },
         {
           "id": "decoder-group05",
           "path": "onnx/conditional_decoder.group05.onnx",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/0ae47e53d4d09e113dcbffeed33e6608d41c4c29/chatterbox-multilingual/conditional_decoder.group05.onnx",
+          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/2e5bcbe618fae6ab050cdedc74419c4bcb1ec299/chatterbox-multilingual/conditional_decoder.group05.onnx",
           "size": 885706,
           "sha256": "e9233442ab5e1cff029ea313023875123fecd109272f6d707a3159a434d7831e"
         },
         {
           "id": "voice-amelia",
           "path": "voices/Amelia.wav",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/01e5cc19d40b6462bbcfb743ddab6de71446d781/chatterbox-voices/Amelia.wav",
+          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/5533318cff0b5b830d0ab1436faa456f96c10fd9/chatterbox-voices/Amelia.wav",
           "size": 395564,
           "sha256": "e788305045e0e133c42bc89749cf15d3b13a00f58cf7aff265ce5bd6cfa660d3"
         },
         {
           "id": "voice-clara",
           "path": "voices/Clara.wav",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/01e5cc19d40b6462bbcfb743ddab6de71446d781/chatterbox-voices/Clara.wav",
+          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/5533318cff0b5b830d0ab1436faa456f96c10fd9/chatterbox-voices/Clara.wav",
           "size": 399404,
           "sha256": "0dda334c167dedac4cbc568890f2ab608c6caaf26b04c3339dc8ca16319a0ee2"
         },
         {
           "id": "voice-elena",
           "path": "voices/Elena.wav",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/01e5cc19d40b6462bbcfb743ddab6de71446d781/chatterbox-voices/Elena.wav",
+          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/5533318cff0b5b830d0ab1436faa456f96c10fd9/chatterbox-voices/Elena.wav",
           "size": 418604,
           "sha256": "259c53e45daf40e579bb5b1411be9454ca712754e10ee27b76a155be6af1e291"
         },
         {
           "id": "voice-grace",
           "path": "voices/Grace.wav",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/01e5cc19d40b6462bbcfb743ddab6de71446d781/chatterbox-voices/Grace.wav",
+          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/5533318cff0b5b830d0ab1436faa456f96c10fd9/chatterbox-voices/Grace.wav",
           "size": 412844,
           "sha256": "65f4a6096f945afc9e92b7d0fac7a5464035fd1742f2a3e49167443ac694da71"
         },
         {
           "id": "voice-hannah",
           "path": "voices/Hannah.wav",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/01e5cc19d40b6462bbcfb743ddab6de71446d781/chatterbox-voices/Hannah.wav",
+          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/5533318cff0b5b830d0ab1436faa456f96c10fd9/chatterbox-voices/Hannah.wav",
           "size": 406124,
           "sha256": "5e73148cab76c88ebd9633946bdc73168c597271e5cb6d9680d660e33f8f3ba6"
         },
         {
           "id": "voice-iris",
           "path": "voices/Iris.wav",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/01e5cc19d40b6462bbcfb743ddab6de71446d781/chatterbox-voices/Iris.wav",
+          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/5533318cff0b5b830d0ab1436faa456f96c10fd9/chatterbox-voices/Iris.wav",
           "size": 437804,
           "sha256": "7a6d25448746f2d285a5be8a9e4f28b489189bf49fcd8b3785eaa1bd368726fc"
         },
         {
           "id": "voice-julia",
           "path": "voices/Julia.wav",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/01e5cc19d40b6462bbcfb743ddab6de71446d781/chatterbox-voices/Julia.wav",
+          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/5533318cff0b5b830d0ab1436faa456f96c10fd9/chatterbox-voices/Julia.wav",
           "size": 399404,
           "sha256": "6bb4a383bc6615cb4286e9376a0b3ba1dc1cfa5627591446fba770ea80610f09"
         },
         {
           "id": "voice-laura",
           "path": "voices/Laura.wav",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/01e5cc19d40b6462bbcfb743ddab6de71446d781/chatterbox-voices/Laura.wav",
+          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/5533318cff0b5b830d0ab1436faa456f96c10fd9/chatterbox-voices/Laura.wav",
           "size": 399404,
           "sha256": "f6812ac162bf7466200784350381d6bea92cf554e60998f91ad91039cd1528da"
         },
         {
           "id": "voice-maya",
           "path": "voices/Maya.wav",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/01e5cc19d40b6462bbcfb743ddab6de71446d781/chatterbox-voices/Maya.wav",
+          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/5533318cff0b5b830d0ab1436faa456f96c10fd9/chatterbox-voices/Maya.wav",
           "size": 380204,
           "sha256": "87d3b5b42f00af8ca2ad85d7f67f1f535be34be4259fd26ff9b2e53fb28c7dbc"
         },
         {
           "id": "voice-nora",
           "path": "voices/Nora.wav",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/01e5cc19d40b6462bbcfb743ddab6de71446d781/chatterbox-voices/Nora.wav",
+          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/5533318cff0b5b830d0ab1436faa456f96c10fd9/chatterbox-voices/Nora.wav",
           "size": 410924,
           "sha256": "ce11565f7c99cc6c3ecdbe2b90241417056d85f0b57b1b0a37e7ff9f51b202e6"
         },
         {
           "id": "voice-rose",
           "path": "voices/Rose.wav",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/01e5cc19d40b6462bbcfb743ddab6de71446d781/chatterbox-voices/Rose.wav",
+          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/5533318cff0b5b830d0ab1436faa456f96c10fd9/chatterbox-voices/Rose.wav",
           "size": 412844,
           "sha256": "3f407918684d98d993dc7b85c576f7e2add610f1e323afc66a3a52dff4f6ed0b"
         },
         {
           "id": "voice-sofia",
           "path": "voices/Sofia.wav",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/01e5cc19d40b6462bbcfb743ddab6de71446d781/chatterbox-voices/Sofia.wav",
+          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/5533318cff0b5b830d0ab1436faa456f96c10fd9/chatterbox-voices/Sofia.wav",
           "size": 393644,
           "sha256": "6d39aac3ecbbbd6f4fac04aa6f2b693923a9affba96fd5f66e95a2a5aae6e0b6"
         },
         {
           "id": "voice-adrian",
           "path": "voices/Adrian.wav",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/01e5cc19d40b6462bbcfb743ddab6de71446d781/chatterbox-voices/Adrian.wav",
+          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/5533318cff0b5b830d0ab1436faa456f96c10fd9/chatterbox-voices/Adrian.wav",
           "size": 410924,
           "sha256": "36cd2c4b91ccde84ecc5406923f7c9051f420b44e692e80e7ab81a68a43580b6"
         },
         {
           "id": "voice-arthur",
           "path": "voices/Arthur.wav",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/01e5cc19d40b6462bbcfb743ddab6de71446d781/chatterbox-voices/Arthur.wav",
+          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/5533318cff0b5b830d0ab1436faa456f96c10fd9/chatterbox-voices/Arthur.wav",
           "size": 409004,
           "sha256": "9a0074f40b709ebf116bb07a67f1a88a74160ad6ec5c28b0a2217a822318e48e"
         },
         {
           "id": "voice-daniel",
           "path": "voices/Daniel.wav",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/01e5cc19d40b6462bbcfb743ddab6de71446d781/chatterbox-voices/Daniel.wav",
+          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/5533318cff0b5b830d0ab1436faa456f96c10fd9/chatterbox-voices/Daniel.wav",
           "size": 451244,
           "sha256": "0d05f598c2b2ba206da81dc40ab58ff4396172ee7d5988f17b63bf8f3c007a22"
         },
         {
           "id": "voice-elliot",
           "path": "voices/Elliot.wav",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/01e5cc19d40b6462bbcfb743ddab6de71446d781/chatterbox-voices/Elliot.wav",
+          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/5533318cff0b5b830d0ab1436faa456f96c10fd9/chatterbox-voices/Elliot.wav",
           "size": 424364,
           "sha256": "1d6437b25526807ca12276f1097724f61f12b9f2564d39a9b5f02773e7da827c"
         },
         {
           "id": "voice-felix",
           "path": "voices/Felix.wav",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/01e5cc19d40b6462bbcfb743ddab6de71446d781/chatterbox-voices/Felix.wav",
+          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/5533318cff0b5b830d0ab1436faa456f96c10fd9/chatterbox-voices/Felix.wav",
           "size": 399404,
           "sha256": "9415e77a27eebfac43c2cd79c7860e23abaca7674611bb85a5d69bf7fe846c1c"
         },
         {
           "id": "voice-henry",
           "path": "voices/Henry.wav",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/01e5cc19d40b6462bbcfb743ddab6de71446d781/chatterbox-voices/Henry.wav",
+          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/5533318cff0b5b830d0ab1436faa456f96c10fd9/chatterbox-voices/Henry.wav",
           "size": 414764,
           "sha256": "cc64e9d30c42178f6a6db89858e0f23b0a541054af197a04ef12a5c003f53426"
         },
         {
           "id": "voice-hugo",
           "path": "voices/Hugo.wav",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/01e5cc19d40b6462bbcfb743ddab6de71446d781/chatterbox-voices/Hugo.wav",
+          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/5533318cff0b5b830d0ab1436faa456f96c10fd9/chatterbox-voices/Hugo.wav",
           "size": 405164,
           "sha256": "a899cfb652a6de2b25f5c3441a4b4c4955a27447b43e1bdb08e3a692d78351e8"
         },
         {
           "id": "voice-leo",
           "path": "voices/Leo.wav",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/01e5cc19d40b6462bbcfb743ddab6de71446d781/chatterbox-voices/Leo.wav",
+          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/5533318cff0b5b830d0ab1436faa456f96c10fd9/chatterbox-voices/Leo.wav",
           "size": 412844,
           "sha256": "7cd8ff5b7251d31eecfccf9bf2415d42f7a70facd27c41fcbf9b3deb1cb3ec40"
         },
         {
           "id": "voice-marcus",
           "path": "voices/Marcus.wav",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/01e5cc19d40b6462bbcfb743ddab6de71446d781/chatterbox-voices/Marcus.wav",
+          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/5533318cff0b5b830d0ab1436faa456f96c10fd9/chatterbox-voices/Marcus.wav",
           "size": 403244,
           "sha256": "2129bd52fe584c20eea229a5270fba7c3ba256c0f70bc18e7c93d86f17476e4a"
         },
         {
           "id": "voice-oscar",
           "path": "voices/Oscar.wav",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/01e5cc19d40b6462bbcfb743ddab6de71446d781/chatterbox-voices/Oscar.wav",
+          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/5533318cff0b5b830d0ab1436faa456f96c10fd9/chatterbox-voices/Oscar.wav",
           "size": 432044,
           "sha256": "7484b92171ffe9cca9f6bdb6127865cb56ccb29b07c2e1ad924a219636d2cb3c"
         },
         {
           "id": "voice-simon",
           "path": "voices/Simon.wav",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/01e5cc19d40b6462bbcfb743ddab6de71446d781/chatterbox-voices/Simon.wav",
+          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/5533318cff0b5b830d0ab1436faa456f96c10fd9/chatterbox-voices/Simon.wav",
           "size": 441644,
           "sha256": "c5420a822cd34620adce4309f1ef5b99d39390c7b5c2d09158e48083ec80cf71"
         },
         {
           "id": "voice-victor",
           "path": "voices/Victor.wav",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/01e5cc19d40b6462bbcfb743ddab6de71446d781/chatterbox-voices/Victor.wav",
+          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/5533318cff0b5b830d0ab1436faa456f96c10fd9/chatterbox-voices/Victor.wav",
           "size": 445484,
           "sha256": "ae279b6155beb9d885a9f9dc38539c7e01d959f0828a5ec2fd31ba23012b8b47"
         },
         {
           "id": "voice-voices",
           "path": "voices/voices.json",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/01e5cc19d40b6462bbcfb743ddab6de71446d781/chatterbox-voices/voices.json",
+          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/5533318cff0b5b830d0ab1436faa456f96c10fd9/chatterbox-voices/voices.json",
           "size": 3305,
           "sha256": "0db9ab7504b97af254db528bec94599249fd5cb6069367004acebaf3c2e7d6d6"
         }
@@ -472,35 +472,35 @@
         {
           "id": "lexicon",
           "path": "ipadic/lexicon.tsv.gz",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/c6d755491e6227f8c8fb0dc2065956f53a26f33e/ipadic/lexicon.tsv.gz",
+          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/44886a448646d13332106b77b3277db09795e91c/ipadic/lexicon.tsv.gz",
           "size": 4072966,
           "sha256": "20079b18e30dc5409395c36ac3d66733e57761440295484c538ed2d2157b16a8"
         },
         {
           "id": "matrix",
           "path": "ipadic/matrix.bin.gz",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/c6d755491e6227f8c8fb0dc2065956f53a26f33e/ipadic/matrix.bin.gz",
+          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/44886a448646d13332106b77b3277db09795e91c/ipadic/matrix.bin.gz",
           "size": 1674851,
           "sha256": "d22403ba0d0d215bfe5f56a7874d8210e77091a07ff63dbc86284dd367152af3"
         },
         {
           "id": "character-definitions",
           "path": "ipadic/char.def",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/c6d755491e6227f8c8fb0dc2065956f53a26f33e/ipadic/char.def",
+          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/44886a448646d13332106b77b3277db09795e91c/ipadic/char.def",
           "size": 4109,
           "sha256": "0c0340faa677d2bc6d89fec279d49e9663ab26f23c3e0acdac2f9d2ba6ad372a"
         },
         {
           "id": "unknown-definitions",
           "path": "ipadic/unk.def",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/c6d755491e6227f8c8fb0dc2065956f53a26f33e/ipadic/unk.def",
+          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/44886a448646d13332106b77b3277db09795e91c/ipadic/unk.def",
           "size": 2198,
           "sha256": "5361b46fc49530de6b6de79714e5f8a350055b338e1cf99e4530753f95cba548"
         },
         {
           "id": "license",
           "path": "ipadic/COPYING",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/c6d755491e6227f8c8fb0dc2065956f53a26f33e/ipadic/COPYING",
+          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/44886a448646d13332106b77b3277db09795e91c/ipadic/COPYING",
           "size": 3792,
           "sha256": "0cc49a2743d845a9f3ea44ec3d7a6acc0aa8f0380772020310f3389713c45cbc"
         }
