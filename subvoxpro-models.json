@@ -1,14 +1,12 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-26",
+  "updatedAt": "2026-10-02",
   "translation": [
     { "provider": "OpenAI", "models": [
       { "id": "gpt-5.6-luna", "priceIn": 0.20, "priceOut": 1.20 },
-      { "id": "gpt-5-mini",   "priceIn": 0.25, "priceOut": 2.00 },
-      { "id": "gpt-5-nano",   "priceIn": 0.05, "priceOut": 0.40 },
+      { "id": "gpt-5.6-terra", "priceIn": 2.00, "priceOut": 12.00 },
       { "id": "gpt-4o-mini",  "priceIn": 0.15, "priceOut": 0.60 },
-      { "id": "gpt-4.1-mini", "priceIn": 0.40, "priceOut": 1.60 },
-      { "id": "gpt-4.1-nano", "priceIn": 0.10, "priceOut": 0.40 }
+      { "id": "gpt-4.1-mini", "priceIn": 0.40, "priceOut": 1.60 }
     ] },
     { "provider": "Claude", "models": [
       { "id": "claude-haiku-4-5",  "priceIn": 1, "priceOut": 5 },
@@ -53,9 +51,7 @@
       { "id": "gemini-2.5-pro-preview-tts", "priceIn": 18 }
     ] },
     { "provider": "OpenAI",      "models": [
-      { "id": "gpt-4o-mini-tts", "priceIn": 15 },
-      { "id": "tts-1", "priceIn": 15 },
-      { "id": "tts-1-hd", "priceIn": 30 }
+      { "id": "gpt-realtime-2.1-mini", "priceIn": 0 }
     ] }
   ],
   "stt": [
@@ -79,11 +75,8 @@
     { "provider": "RevAI",        "models": [ 
       { "id": "reverb", "priceIn": 0.18 }
     ] },
-    { "provider": "OpenAI", "models": [
-      { "id": "gpt-transcribe", "priceIn": 0.27 },
-      { "id": "gpt-4o-transcribe", "priceIn": 0.36 },
-      { "id": "gpt-4o-mini-transcribe", "priceIn": 0.18 },
-      { "id": "whisper-1", "priceIn": 0.36 }
+    { "provider": "OpenAI",       "models": [
+      { "id": "gpt-transcribe", "priceIn": 0.27 }
     ] }
   ]
 }
