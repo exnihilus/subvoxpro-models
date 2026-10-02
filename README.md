@@ -36,7 +36,7 @@ AppData, and falls back to its bundled copy when offline.
 
 ```jsonc
 {
-  "version": 1,
+  "version": 2,
   "updatedAt": "2026-09-13",
   "packages": [
     {
@@ -104,6 +104,17 @@ provider, append an entry to its `models` array; to add a provider, append a new
   tokens**; for DeepL/Google Translate USD per **1M characters**; for TTS USD per **1M
   characters**; for STT USD per **audio hour**. The editor appends the right unit.
 - **`priceOut`** (optional) — USD per **1M output tokens** (LLM providers only).
+- **`realtime`** (optional, schema 2) — USD per **1M tokens** for Realtime models, with
+  `textIn`, `textCachedIn`, `textOut`, `audioIn`, `audioCachedIn`, `audioOut`.
+  Leave `priceIn`/`priceOut` absent for these TTS entries so older readers do not interpret token rates as character rates.
+
+OpenAI `gpt-realtime-2.1-mini`, verified 2026-10-02: text $0.60 input / $0.06 cached / $2.40 output;
+audio $10 input / $0.30 cached / $20 output per million tokens.
+Audio output uses roughly 20 tokens/second: about **$0.024/minute**, plus text tokens.
+The editor's batch estimate projects speaking duration at 14 characters/second and text at 4 characters/token.
+Instructions, speaking pace and tokenization can change the final bill.
+Sources: [OpenAI pricing](https://developers.openai.com/api/docs/pricing),
+[Realtime token accounting](https://developers.openai.com/api/docs/guides/voice-latency-cost?api=realtime).
 
 Prices are optional — a model with no price simply shows its name. They exist to make the
 dropdowns informative.
