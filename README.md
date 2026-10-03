@@ -81,6 +81,14 @@ stay in the upstream `conditional_decoder.onnx_data`) and must be referenced by 
 `chatterbox-multilingual-onnx` package, referenced by commit SHA like the decoder graphs. SubVox Pro builds them with
 its dev tool `Tools/VoicePack/build_chatterbox_voice_pack.py`.
 
+[`qwen3-voices/`](qwen3-voices/NOTICE.md) holds twenty synthetic reference clips, one female and one male
+in each of Qwen3 TTS's ten languages. They were generated locally with VoiceDesign from original texts
+and descriptions, without human reference recordings or named-person imitation. The pack is CC0 1.0,
+including commercial redistribution and voice cloning. Its manifest retains model/engine provenance,
+prompts, transcripts and SHA-256 hashes; automated reference and Base-clone checks are in `quality.json`.
+The `qwen3-tts-reference-voices-v1` package pins these files by commit SHA and is installed alongside Base.
+Base, CustomVoice and VoiceDesign each use their own talker file and share the 12 Hz tokenizer.
+
 ## Format
 
 ```jsonc
