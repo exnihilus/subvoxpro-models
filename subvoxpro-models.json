@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-02",
+  "updatedAt": "2026-10-03",
   "translation": [
     { "provider": "OpenAI", "models": [
       { "id": "gpt-5.6-luna", "priceIn": 0.20, "priceOut": 1.20 },
@@ -54,6 +54,11 @@
     ] },
     { "provider": "OpenAI",      "models": [
       { "id": "gpt-realtime-2.1-mini", "realtime": { "textIn": 0.60, "textCachedIn": 0.06, "textOut": 2.40, "audioIn": 10.00, "audioCachedIn": 0.30, "audioOut": 20.00 } }
+    ] },
+    { "provider": "Qwen3Local", "models": [
+      {"id": "qwen3-tts-12hz-1.7b-base-q8_0", "priceIn": 0},
+      {"id": "qwen3-tts-12hz-1.7b-customvoice-q8_0", "priceIn": 0},
+      {"id": "qwen3-tts-12hz-1.7b-voicedesign-q8_0", "priceIn": 0}
     ] }
   ],
   "stt": [
