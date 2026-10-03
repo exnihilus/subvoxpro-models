@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-02",
+  "updatedAt": "2026-10-03",
   "packages": [
     {
       "id": "whisper-cpp-large-v2",
@@ -549,23 +549,23 @@
       ]
     },
     {
-      "id": "orpheus-3b-english-q8",
-      "displayName": "Orpheus 3B English Q8 + SNAC",
-      "version": "6d58c3d-f317cdff",
+      "id": "qwen3-tts-1.7b-customvoice-q8",
+      "displayName": "Qwen3 TTS 1.7B CustomVoice Q8",
+      "version": "b7ee2e8c7459c3bea99da23e3d178125a7d1713c",
       "assets": [
         {
-          "id": "model",
-          "path": "orpheus-3b-q8_0.gguf",
-          "url": "https://huggingface.co/lex-au/Orpheus-3b-FT-Q8_0.gguf/resolve/6d58c3d2601e03f2016380cc6069d643d1119501/Orpheus-3b-FT-Q8_0.gguf",
-          "size": 4028683104,
-          "sha256": "d435342ebf8428b08157445861370f84ffa5f6af8affcb3a9c00f542f39b4980"
+          "id": "talker",
+          "path": "qwen-talker-1.7b-customvoice-Q8_0.gguf",
+          "url": "https://huggingface.co/Serveurperso/Qwen3-TTS-GGUF/resolve/b7ee2e8c7459c3bea99da23e3d178125a7d1713c/qwen-talker-1.7b-customvoice-Q8_0.gguf",
+          "size": 2042834304,
+          "sha256": "cab2cff67a0a557310febe558dc83076b28ed790e491867eb2751759f4cd89fa"
         },
         {
-          "id": "decoder",
-          "path": "snac_decoder.onnx",
-          "url": "https://huggingface.co/onnx-community/snac_24khz-ONNX/resolve/f317cdff7efb7b2a63148c9e68bbb0320fe629a1/onnx/decoder_model.onnx",
-          "size": 52600822,
-          "sha256": "9e2991fce96c3b49c508304e656052f4f6b860fe8432164fcd976eee195fd4f0"
+          "id": "tokenizer",
+          "path": "qwen-tokenizer-12hz-Q8_0.gguf",
+          "url": "https://huggingface.co/Serveurperso/Qwen3-TTS-GGUF/resolve/b7ee2e8c7459c3bea99da23e3d178125a7d1713c/qwen-tokenizer-12hz-Q8_0.gguf",
+          "size": 291150624,
+          "sha256": "1883beeed99348fc35e23dd225e9082f93f6f8c109330a33d935baa8acdbfd94"
         }
       ]
     }
