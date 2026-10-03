@@ -31,15 +31,6 @@
     ] }
   ],
   "tts": [
-    {
-      "provider": "VoxCpm2Local",
-      "models": [
-        {
-          "id": "voxcpm2-2b-q8_0",
-          "priceIn": 0
-        }
-      ]
-    },
     { "provider": "InWorld",     "models": [
       { "id": "inworld-tts-2", "priceIn": 25 }
     ] },
@@ -63,11 +54,6 @@
     ] },
     { "provider": "OpenAI",      "models": [
       { "id": "gpt-realtime-2.1-mini", "realtime": { "textIn": 0.60, "textCachedIn": 0.06, "textOut": 2.40, "audioIn": 10.00, "audioCachedIn": 0.30, "audioOut": 20.00 } }
-    ] },
-    { "provider": "Qwen3Local", "models": [
-      {"id": "qwen3-tts-12hz-1.7b-base-q8_0", "priceIn": 0},
-      {"id": "qwen3-tts-12hz-1.7b-customvoice-q8_0", "priceIn": 0},
-      {"id": "qwen3-tts-12hz-1.7b-voicedesign-q8_0", "priceIn": 0}
     ] }
   ],
   "stt": [
