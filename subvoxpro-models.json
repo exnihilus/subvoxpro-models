@@ -31,6 +31,15 @@
     ] }
   ],
   "tts": [
+    {
+      "provider": "VoxCpm2Local",
+      "models": [
+        {
+          "id": "voxcpm2-2b-q8_0",
+          "priceIn": 0
+        }
+      ]
+    },
     { "provider": "InWorld",     "models": [
       { "id": "inworld-tts-2", "priceIn": 25 }
     ] },
