@@ -1,0 +1,165 @@
+{
+  "Method": "Local Whisper large-v3-turbo transcription, normalized character edit distance; waveform format, finite samples, RMS, clipping and autocorrelation pitch checks. These checks do not replace subjective listening by native speakers.",
+  "Voices": [
+    {
+      "Id": "fr_female",
+      "ReferenceCharacterErrorRate": 0.0,
+      "CloneCharacterErrorRate": 0.0,
+      "MedianPitchHz": 300.0,
+      "Peak": 0.615,
+      "DurationSeconds": 9.6
+    },
+    {
+      "Id": "fr_male",
+      "ReferenceCharacterErrorRate": 0.0,
+      "CloneCharacterErrorRate": 0.0,
+      "MedianPitchHz": 99.6,
+      "Peak": 0.566,
+      "DurationSeconds": 11.84
+    },
+    {
+      "Id": "en_female",
+      "ReferenceCharacterErrorRate": 0.0,
+      "CloneCharacterErrorRate": 0.0,
+      "MedianPitchHz": 227.5,
+      "Peak": 0.595,
+      "DurationSeconds": 9.12
+    },
+    {
+      "Id": "en_male",
+      "ReferenceCharacterErrorRate": 0.0,
+      "CloneCharacterErrorRate": 0.0,
+      "MedianPitchHz": 106.7,
+      "Peak": 0.6,
+      "DurationSeconds": 10.0
+    },
+    {
+      "Id": "de_female",
+      "ReferenceCharacterErrorRate": 0.0,
+      "CloneCharacterErrorRate": 0.0,
+      "MedianPitchHz": 237.6,
+      "Peak": 0.551,
+      "DurationSeconds": 12.72
+    },
+    {
+      "Id": "de_male",
+      "ReferenceCharacterErrorRate": 0.0,
+      "CloneCharacterErrorRate": 0.0,
+      "MedianPitchHz": 120.9,
+      "Peak": 0.555,
+      "DurationSeconds": 9.44
+    },
+    {
+      "Id": "es_female",
+      "ReferenceCharacterErrorRate": 0.0,
+      "CloneCharacterErrorRate": 0.0,
+      "MedianPitchHz": 244.9,
+      "Peak": 0.512,
+      "DurationSeconds": 13.92
+    },
+    {
+      "Id": "es_male",
+      "ReferenceCharacterErrorRate": 0.015037593984962405,
+      "CloneCharacterErrorRate": 0.0,
+      "MedianPitchHz": 95.2,
+      "Peak": 0.368,
+      "DurationSeconds": 10.8
+    },
+    {
+      "Id": "pt_female",
+      "ReferenceCharacterErrorRate": 0.0,
+      "CloneCharacterErrorRate": 0.0078125,
+      "MedianPitchHz": 177.1,
+      "Peak": 0.557,
+      "DurationSeconds": 11.28
+    },
+    {
+      "Id": "pt_male",
+      "ReferenceCharacterErrorRate": 0.0,
+      "CloneCharacterErrorRate": 0.0,
+      "MedianPitchHz": 107.1,
+      "Peak": 0.672,
+      "DurationSeconds": 10.72
+    },
+    {
+      "Id": "it_female",
+      "ReferenceCharacterErrorRate": 0.0,
+      "CloneCharacterErrorRate": 0.0,
+      "MedianPitchHz": 214.3,
+      "Peak": 0.591,
+      "DurationSeconds": 12.88
+    },
+    {
+      "Id": "it_male",
+      "ReferenceCharacterErrorRate": 0.0,
+      "CloneCharacterErrorRate": 0.0,
+      "MedianPitchHz": 115.4,
+      "Peak": 0.657,
+      "DurationSeconds": 10.56
+    },
+    {
+      "Id": "ru_female",
+      "ReferenceCharacterErrorRate": 0.0,
+      "CloneCharacterErrorRate": 0.0,
+      "MedianPitchHz": 228.6,
+      "Peak": 0.481,
+      "DurationSeconds": 10.8
+    },
+    {
+      "Id": "ru_male",
+      "ReferenceCharacterErrorRate": 0.016,
+      "CloneCharacterErrorRate": 0.0,
+      "MedianPitchHz": 110.3,
+      "Peak": 0.613,
+      "DurationSeconds": 12.24
+    },
+    {
+      "Id": "zh_female",
+      "ReferenceCharacterErrorRate": 0.0,
+      "CloneCharacterErrorRate": 0.0,
+      "MedianPitchHz": 192.0,
+      "Peak": 0.59,
+      "DurationSeconds": 12.0
+    },
+    {
+      "Id": "zh_male",
+      "ReferenceCharacterErrorRate": 0.0,
+      "CloneCharacterErrorRate": 0.0,
+      "MedianPitchHz": 104.3,
+      "Peak": 0.66,
+      "DurationSeconds": 10.64
+    },
+    {
+      "Id": "ko_female",
+      "ReferenceCharacterErrorRate": 0.0,
+      "CloneCharacterErrorRate": 0.0,
+      "MedianPitchHz": 218.2,
+      "Peak": 0.568,
+      "DurationSeconds": 12.8
+    },
+    {
+      "Id": "ko_male",
+      "ReferenceCharacterErrorRate": 0.0,
+      "CloneCharacterErrorRate": 0.0,
+      "MedianPitchHz": 95.6,
+      "Peak": 0.713,
+      "DurationSeconds": 12.72
+    },
+    {
+      "Id": "ja_female",
+      "ReferenceCharacterErrorRate": 0.0,
+      "CloneCharacterErrorRate": 0.0,
+      "MedianPitchHz": 289.2,
+      "Peak": 0.539,
+      "DurationSeconds": 12.72
+    },
+    {
+      "Id": "ja_male",
+      "ReferenceCharacterErrorRate": 0.0,
+      "CloneCharacterErrorRate": 0.0,
+      "MedianPitchHz": 111.1,
+      "Peak": 0.562,
+      "DurationSeconds": 13.84
+    }
+  ]
+}
