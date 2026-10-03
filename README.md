@@ -1,6 +1,6 @@
-# SubVox Pro — Remote Model Catalog
+# SubVox Pro — Cloud Model Catalog
 
-Live catalogue of AI models (names + pricing) used by the **SubVox Pro** Unity asset.
+Live catalogue of cloud AI models (names + pricing) used by the **SubVox Pro** Unity asset.
 It lets the model dropdowns be updated **without republishing the package**: SubVox Pro
 fetches this file at launch (and on a manual *Refresh*), caches the result on disk, and
 falls back to a bundled copy when offline.
