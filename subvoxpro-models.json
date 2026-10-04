@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-03",
+  "updatedAt": "2026-10-04",
   "translation": [
     { "provider": "OpenAI", "models": [
       { "id": "gpt-5.6-luna", "priceIn": 0.20, "priceOut": 1.20 },
@@ -32,7 +32,8 @@
   ],
   "tts": [
     { "provider": "InWorld",     "models": [
-      { "id": "inworld-tts-2", "priceIn": 25 }
+      { "id": "inworld-tts-2", "priceIn": 25 },
+      { "id": "inworld-tts-2-flash", "priceIn": 15 }
     ] },
     { "provider": "ElevenLabs",  "models": [
       { "id": "eleven_multilingual_v2", "priceIn": 100 },
