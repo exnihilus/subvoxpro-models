@@ -269,7 +269,7 @@
           "id": "language-model-dml",
           "path": "onnx/language_model_dml.onnx",
           "url": "https://huggingface.co/ExNihilus/chatterbox-multilingual-ONNX-DML/resolve/27454879c0333b6356166388f20c8fe7a1bfbb95/language_model_dml.onnx",
-          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/4d24d935c1ab72f409f2c4f011bbe2a319b6d087/chatterbox-multilingual/language_model_dml.onnx",
+          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/7f7f632939b05013a607f5cdae948335bfda91e4/chatterbox-multilingual/language_model_dml.onnx",
           "size": 493817,
           "sha256": "e1520a2289ab846b89c0004ab862425a9b353a99ec2beb06343a007fb25c8baf"
         },
@@ -301,7 +301,7 @@
           "id": "decoder-group00",
           "path": "onnx/conditional_decoder.group00.onnx",
           "url": "https://huggingface.co/ExNihilus/chatterbox-multilingual-ONNX-DML/resolve/27454879c0333b6356166388f20c8fe7a1bfbb95/conditional_decoder.group00.onnx",
-          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/2e5bcbe618fae6ab050cdedc74419c4bcb1ec299/chatterbox-multilingual/conditional_decoder.group00.onnx",
+          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/18c62c72b997dc2784492eead2da2866dcb0a84a/chatterbox-multilingual/conditional_decoder.group00.onnx",
           "size": 834597,
           "sha256": "6b5f3552dd127a786b22966abdfa3abdb752a8b51452471cbd8ac510bc7442f7"
         },
@@ -309,7 +309,7 @@
           "id": "decoder-group01",
           "path": "onnx/conditional_decoder.group01.onnx",
           "url": "https://huggingface.co/ExNihilus/chatterbox-multilingual-ONNX-DML/resolve/27454879c0333b6356166388f20c8fe7a1bfbb95/conditional_decoder.group01.onnx",
-          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/2e5bcbe618fae6ab050cdedc74419c4bcb1ec299/chatterbox-multilingual/conditional_decoder.group01.onnx",
+          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/18c62c72b997dc2784492eead2da2866dcb0a84a/chatterbox-multilingual/conditional_decoder.group01.onnx",
           "size": 829222,
           "sha256": "d6f9ef508349323af76ca489a8a614b6571e572bde595f3d9cc3daf11c842d31"
         },
@@ -317,7 +317,7 @@
           "id": "decoder-group02",
           "path": "onnx/conditional_decoder.group02.onnx",
           "url": "https://huggingface.co/ExNihilus/chatterbox-multilingual-ONNX-DML/resolve/27454879c0333b6356166388f20c8fe7a1bfbb95/conditional_decoder.group02.onnx",
-          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/2e5bcbe618fae6ab050cdedc74419c4bcb1ec299/chatterbox-multilingual/conditional_decoder.group02.onnx",
+          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/18c62c72b997dc2784492eead2da2866dcb0a84a/chatterbox-multilingual/conditional_decoder.group02.onnx",
           "size": 831379,
           "sha256": "de5b7cae9a53be205684e6cf91f2647a4d9bdc7dd536499f04870e99b1df58ee"
         },
@@ -325,7 +325,7 @@
           "id": "decoder-group03",
           "path": "onnx/conditional_decoder.group03.onnx",
           "url": "https://huggingface.co/ExNihilus/chatterbox-multilingual-ONNX-DML/resolve/27454879c0333b6356166388f20c8fe7a1bfbb95/conditional_decoder.group03.onnx",
-          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/2e5bcbe618fae6ab050cdedc74419c4bcb1ec299/chatterbox-multilingual/conditional_decoder.group03.onnx",
+          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/18c62c72b997dc2784492eead2da2866dcb0a84a/chatterbox-multilingual/conditional_decoder.group03.onnx",
           "size": 828657,
           "sha256": "a39ac3ab7118160601b641a64f33d4e539a4cbdc695f84d87286cb4b73c2bbb3"
         },
@@ -333,7 +333,7 @@
           "id": "decoder-group04",
           "path": "onnx/conditional_decoder.group04.onnx",
           "url": "https://huggingface.co/ExNihilus/chatterbox-multilingual-ONNX-DML/resolve/27454879c0333b6356166388f20c8fe7a1bfbb95/conditional_decoder.group04.onnx",
-          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/2e5bcbe618fae6ab050cdedc74419c4bcb1ec299/chatterbox-multilingual/conditional_decoder.group04.onnx",
+          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/18c62c72b997dc2784492eead2da2866dcb0a84a/chatterbox-multilingual/conditional_decoder.group04.onnx",
           "size": 829617,
           "sha256": "f3b5899b6575cb06abb66d56367763ab56aa72d29de3a3e6ec75cc320d4cef9d"
         },
@@ -341,7 +341,7 @@
           "id": "decoder-group05",
           "path": "onnx/conditional_decoder.group05.onnx",
           "url": "https://huggingface.co/ExNihilus/chatterbox-multilingual-ONNX-DML/resolve/27454879c0333b6356166388f20c8fe7a1bfbb95/conditional_decoder.group05.onnx",
-          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/2e5bcbe618fae6ab050cdedc74419c4bcb1ec299/chatterbox-multilingual/conditional_decoder.group05.onnx",
+          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/18c62c72b997dc2784492eead2da2866dcb0a84a/chatterbox-multilingual/conditional_decoder.group05.onnx",
           "size": 885706,
           "sha256": "e9233442ab5e1cff029ea313023875123fecd109272f6d707a3159a434d7831e"
         }
@@ -356,7 +356,7 @@
           "id": "lexicon",
           "path": "ipadic/lexicon.tsv.gz",
           "url": "https://huggingface.co/ExNihilus/mecab-ipadic-utf8/resolve/89cf3b2acc1f9b334e023e55c3c1b4de3b514b66/lexicon.tsv.gz",
-          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/44886a448646d13332106b77b3277db09795e91c/ipadic/lexicon.tsv.gz",
+          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/09a15e18c6f3423dc65590c6163978da1092ddc2/ipadic/lexicon.tsv.gz",
           "size": 4072966,
           "sha256": "20079b18e30dc5409395c36ac3d66733e57761440295484c538ed2d2157b16a8"
         },
@@ -364,7 +364,7 @@
           "id": "matrix",
           "path": "ipadic/matrix.bin.gz",
           "url": "https://huggingface.co/ExNihilus/mecab-ipadic-utf8/resolve/89cf3b2acc1f9b334e023e55c3c1b4de3b514b66/matrix.bin.gz",
-          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/44886a448646d13332106b77b3277db09795e91c/ipadic/matrix.bin.gz",
+          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/09a15e18c6f3423dc65590c6163978da1092ddc2/ipadic/matrix.bin.gz",
           "size": 1674851,
           "sha256": "d22403ba0d0d215bfe5f56a7874d8210e77091a07ff63dbc86284dd367152af3"
         },
@@ -372,7 +372,7 @@
           "id": "character-definitions",
           "path": "ipadic/char.def",
           "url": "https://huggingface.co/ExNihilus/mecab-ipadic-utf8/resolve/89cf3b2acc1f9b334e023e55c3c1b4de3b514b66/char.def",
-          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/44886a448646d13332106b77b3277db09795e91c/ipadic/char.def",
+          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/09a15e18c6f3423dc65590c6163978da1092ddc2/ipadic/char.def",
           "size": 4109,
           "sha256": "0c0340faa677d2bc6d89fec279d49e9663ab26f23c3e0acdac2f9d2ba6ad372a"
         },
@@ -380,7 +380,7 @@
           "id": "unknown-definitions",
           "path": "ipadic/unk.def",
           "url": "https://huggingface.co/ExNihilus/mecab-ipadic-utf8/resolve/89cf3b2acc1f9b334e023e55c3c1b4de3b514b66/unk.def",
-          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/44886a448646d13332106b77b3277db09795e91c/ipadic/unk.def",
+          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/09a15e18c6f3423dc65590c6163978da1092ddc2/ipadic/unk.def",
           "size": 2198,
           "sha256": "5361b46fc49530de6b6de79714e5f8a350055b338e1cf99e4530753f95cba548"
         },
@@ -388,7 +388,7 @@
           "id": "license",
           "path": "ipadic/COPYING",
           "url": "https://huggingface.co/ExNihilus/mecab-ipadic-utf8/resolve/89cf3b2acc1f9b334e023e55c3c1b4de3b514b66/COPYING",
-          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/44886a448646d13332106b77b3277db09795e91c/ipadic/COPYING",
+          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/09a15e18c6f3423dc65590c6163978da1092ddc2/ipadic/COPYING",
           "size": 3792,
           "sha256": "0cc49a2743d845a9f3ea44ec3d7a6acc0aa8f0380772020310f3389713c45cbc"
         }
@@ -513,13 +513,13 @@
     {
       "id": "qwen3-tts-reference-voices-v1",
       "displayName": "Qwen3 synthetic reference voices (20, CC0)",
-      "version": "dddbca390061df297ecbd49c1d21c1c0b628e4dd",
+      "version": "63cee0f561691d51c00c8a781d155480cb2635e5",
       "assets": [
         {
           "id": "LICENSE",
           "path": "LICENSE.txt",
           "url": "https://huggingface.co/ExNihilus/qwen3-tts-reference-voices/resolve/30e9464a5fd38569a41a48093d9a197c7b225346/LICENSE.txt",
-          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/dddbca390061df297ecbd49c1d21c1c0b628e4dd/qwen3-voices/LICENSE.txt",
+          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/63cee0f561691d51c00c8a781d155480cb2635e5/qwen3-voices/LICENSE.txt",
           "size": 7048,
           "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
         },
@@ -527,7 +527,7 @@
           "id": "NOTICE",
           "path": "NOTICE.md",
           "url": "https://huggingface.co/ExNihilus/qwen3-tts-reference-voices/resolve/30e9464a5fd38569a41a48093d9a197c7b225346/NOTICE.md",
-          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/dddbca390061df297ecbd49c1d21c1c0b628e4dd/qwen3-voices/NOTICE.md",
+          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/63cee0f561691d51c00c8a781d155480cb2635e5/qwen3-voices/NOTICE.md",
           "size": 1979,
           "sha256": "6a3ca58ee6589d421b762c5f5c04732f9a5671aaf02f6ee5d9898364d1b3e6f3"
         },
@@ -535,7 +535,7 @@
           "id": "QWEN3-TTS-MODEL-LICENSE",
           "path": "QWEN3-TTS-MODEL-LICENSE.txt",
           "url": "https://huggingface.co/ExNihilus/qwen3-tts-reference-voices/resolve/30e9464a5fd38569a41a48093d9a197c7b225346/QWEN3-TTS-MODEL-LICENSE.txt",
-          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/dddbca390061df297ecbd49c1d21c1c0b628e4dd/qwen3-voices/QWEN3-TTS-MODEL-LICENSE.txt",
+          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/63cee0f561691d51c00c8a781d155480cb2635e5/qwen3-voices/QWEN3-TTS-MODEL-LICENSE.txt",
           "size": 11343,
           "sha256": "a44a6081c73ad75f0255bb2bb5cab74ef1829565a895a24e53a4f11290ab7655"
         },
@@ -543,7 +543,7 @@
           "id": "de_female",
           "path": "de_female.wav",
           "url": "https://huggingface.co/ExNihilus/qwen3-tts-reference-voices/resolve/30e9464a5fd38569a41a48093d9a197c7b225346/de_female.wav",
-          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/dddbca390061df297ecbd49c1d21c1c0b628e4dd/qwen3-voices/de_female.wav",
+          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/63cee0f561691d51c00c8a781d155480cb2635e5/qwen3-voices/de_female.wav",
           "size": 610604,
           "sha256": "782e4b321b5adb65ea2fa4c4e2702434d0ab8dae23bd773b8bdc2cf0eb4a1321"
         },
@@ -551,7 +551,7 @@
           "id": "de_male",
           "path": "de_male.wav",
           "url": "https://huggingface.co/ExNihilus/qwen3-tts-reference-voices/resolve/30e9464a5fd38569a41a48093d9a197c7b225346/de_male.wav",
-          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/dddbca390061df297ecbd49c1d21c1c0b628e4dd/qwen3-voices/de_male.wav",
+          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/63cee0f561691d51c00c8a781d155480cb2635e5/qwen3-voices/de_male.wav",
           "size": 453164,
           "sha256": "4dfdba983970624f7b2c0c2d84bb2b7046e2d2912c0d5cf5f88452f1b1b636eb"
         },
@@ -559,7 +559,7 @@
           "id": "en_female",
           "path": "en_female.wav",
           "url": "https://huggingface.co/ExNihilus/qwen3-tts-reference-voices/resolve/30e9464a5fd38569a41a48093d9a197c7b225346/en_female.wav",
-          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/dddbca390061df297ecbd49c1d21c1c0b628e4dd/qwen3-voices/en_female.wav",
+          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/63cee0f561691d51c00c8a781d155480cb2635e5/qwen3-voices/en_female.wav",
           "size": 437804,
           "sha256": "3d63f2b06d9f52a1275a6eb681eaf333f951194a936695409c8098ac4dc6ff6c"
         },
@@ -567,7 +567,7 @@
           "id": "en_male",
           "path": "en_male.wav",
           "url": "https://huggingface.co/ExNihilus/qwen3-tts-reference-voices/resolve/30e9464a5fd38569a41a48093d9a197c7b225346/en_male.wav",
-          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/dddbca390061df297ecbd49c1d21c1c0b628e4dd/qwen3-voices/en_male.wav",
+          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/63cee0f561691d51c00c8a781d155480cb2635e5/qwen3-voices/en_male.wav",
           "size": 480044,
           "sha256": "115aca4b974fdad37606081e0a1bf218f4d296fc0a03f6c914cd2f1a8a037817"
         },
@@ -575,7 +575,7 @@
           "id": "es_female",
           "path": "es_female.wav",
           "url": "https://huggingface.co/ExNihilus/qwen3-tts-reference-voices/resolve/30e9464a5fd38569a41a48093d9a197c7b225346/es_female.wav",
-          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/dddbca390061df297ecbd49c1d21c1c0b628e4dd/qwen3-voices/es_female.wav",
+          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/63cee0f561691d51c00c8a781d155480cb2635e5/qwen3-voices/es_female.wav",
           "size": 668204,
           "sha256": "338cb2293e795960a934ad399660c937872a836b31871db1e7d1e35b95961c9b"
         },
@@ -583,7 +583,7 @@
           "id": "es_male",
           "path": "es_male.wav",
           "url": "https://huggingface.co/ExNihilus/qwen3-tts-reference-voices/resolve/30e9464a5fd38569a41a48093d9a197c7b225346/es_male.wav",
-          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/dddbca390061df297ecbd49c1d21c1c0b628e4dd/qwen3-voices/es_male.wav",
+          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/63cee0f561691d51c00c8a781d155480cb2635e5/qwen3-voices/es_male.wav",
           "size": 518444,
           "sha256": "a097497aa3f5e95024c25ee1ce198e59cf6c7281ec6c6511fa086d81f4a640d7"
         },
@@ -591,7 +591,7 @@
           "id": "fr_female",
           "path": "fr_female.wav",
           "url": "https://huggingface.co/ExNihilus/qwen3-tts-reference-voices/resolve/30e9464a5fd38569a41a48093d9a197c7b225346/fr_female.wav",
-          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/dddbca390061df297ecbd49c1d21c1c0b628e4dd/qwen3-voices/fr_female.wav",
+          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/63cee0f561691d51c00c8a781d155480cb2635e5/qwen3-voices/fr_female.wav",
           "size": 460844,
           "sha256": "a04e304721d7cd3024d03c0166ff044be131b0b2644cf83e1993b50553688d46"
         },
@@ -599,7 +599,7 @@
           "id": "fr_male",
           "path": "fr_male.wav",
           "url": "https://huggingface.co/ExNihilus/qwen3-tts-reference-voices/resolve/30e9464a5fd38569a41a48093d9a197c7b225346/fr_male.wav",
-          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/dddbca390061df297ecbd49c1d21c1c0b628e4dd/qwen3-voices/fr_male.wav",
+          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/63cee0f561691d51c00c8a781d155480cb2635e5/qwen3-voices/fr_male.wav",
           "size": 568364,
           "sha256": "d7abcdbd5ca6375940c5ef468693cb5d9882e4f2a93bd228a078e8503d7d0a4e"
         },
@@ -607,7 +607,7 @@
           "id": "it_female",
           "path": "it_female.wav",
           "url": "https://huggingface.co/ExNihilus/qwen3-tts-reference-voices/resolve/30e9464a5fd38569a41a48093d9a197c7b225346/it_female.wav",
-          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/dddbca390061df297ecbd49c1d21c1c0b628e4dd/qwen3-voices/it_female.wav",
+          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/63cee0f561691d51c00c8a781d155480cb2635e5/qwen3-voices/it_female.wav",
           "size": 618284,
           "sha256": "5f25a2c07af26c1f36e618b8c35e00ab1f53eaa67fd229f9d49991fa31a736e9"
         },
@@ -615,7 +615,7 @@
           "id": "it_male",
           "path": "it_male.wav",
           "url": "https://huggingface.co/ExNihilus/qwen3-tts-reference-voices/resolve/30e9464a5fd38569a41a48093d9a197c7b225346/it_male.wav",
-          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/dddbca390061df297ecbd49c1d21c1c0b628e4dd/qwen3-voices/it_male.wav",
+          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/63cee0f561691d51c00c8a781d155480cb2635e5/qwen3-voices/it_male.wav",
           "size": 506924,
           "sha256": "f2dbdbadf26b2adfd4421b20fadeb8935dd3752573ac1daab342d15fa6a6ff76"
         },
@@ -623,7 +623,7 @@
           "id": "ja_female",
           "path": "ja_female.wav",
           "url": "https://huggingface.co/ExNihilus/qwen3-tts-reference-voices/resolve/30e9464a5fd38569a41a48093d9a197c7b225346/ja_female.wav",
-          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/dddbca390061df297ecbd49c1d21c1c0b628e4dd/qwen3-voices/ja_female.wav",
+          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/63cee0f561691d51c00c8a781d155480cb2635e5/qwen3-voices/ja_female.wav",
           "size": 610604,
           "sha256": "564a117167e57e2757e917d226a88c5b1af6abcc0bbbd50d78260e7d3d9a0c6d"
         },
@@ -631,7 +631,7 @@
           "id": "ja_male",
           "path": "ja_male.wav",
           "url": "https://huggingface.co/ExNihilus/qwen3-tts-reference-voices/resolve/30e9464a5fd38569a41a48093d9a197c7b225346/ja_male.wav",
-          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/dddbca390061df297ecbd49c1d21c1c0b628e4dd/qwen3-voices/ja_male.wav",
+          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/63cee0f561691d51c00c8a781d155480cb2635e5/qwen3-voices/ja_male.wav",
           "size": 664364,
           "sha256": "b6878adea4185afd6b0cac2d3dbcf248e5c5abe87e35e822cb379a5cd5429455"
         },
@@ -639,7 +639,7 @@
           "id": "ko_female",
           "path": "ko_female.wav",
           "url": "https://huggingface.co/ExNihilus/qwen3-tts-reference-voices/resolve/30e9464a5fd38569a41a48093d9a197c7b225346/ko_female.wav",
-          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/dddbca390061df297ecbd49c1d21c1c0b628e4dd/qwen3-voices/ko_female.wav",
+          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/63cee0f561691d51c00c8a781d155480cb2635e5/qwen3-voices/ko_female.wav",
           "size": 614444,
           "sha256": "3be64a36d5f0ed5bfce2cc86e3c722f10bd50ae76222748a4089a91fa642a9d6"
         },
@@ -647,7 +647,7 @@
           "id": "ko_male",
           "path": "ko_male.wav",
           "url": "https://huggingface.co/ExNihilus/qwen3-tts-reference-voices/resolve/30e9464a5fd38569a41a48093d9a197c7b225346/ko_male.wav",
-          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/dddbca390061df297ecbd49c1d21c1c0b628e4dd/qwen3-voices/ko_male.wav",
+          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/63cee0f561691d51c00c8a781d155480cb2635e5/qwen3-voices/ko_male.wav",
           "size": 610604,
           "sha256": "99de8fd9ac5b14f920a3852585c0e6e35e9439cdd6ef163f99a8886f6f36df67"
         },
@@ -655,7 +655,7 @@
           "id": "pt_female",
           "path": "pt_female.wav",
           "url": "https://huggingface.co/ExNihilus/qwen3-tts-reference-voices/resolve/30e9464a5fd38569a41a48093d9a197c7b225346/pt_female.wav",
-          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/dddbca390061df297ecbd49c1d21c1c0b628e4dd/qwen3-voices/pt_female.wav",
+          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/63cee0f561691d51c00c8a781d155480cb2635e5/qwen3-voices/pt_female.wav",
           "size": 541484,
           "sha256": "b4034cf2499c6df746cde5033fa58e1a00b4bb1ced4db404b302e4d038a943d0"
         },
@@ -663,7 +663,7 @@
           "id": "pt_male",
           "path": "pt_male.wav",
           "url": "https://huggingface.co/ExNihilus/qwen3-tts-reference-voices/resolve/30e9464a5fd38569a41a48093d9a197c7b225346/pt_male.wav",
-          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/dddbca390061df297ecbd49c1d21c1c0b628e4dd/qwen3-voices/pt_male.wav",
+          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/63cee0f561691d51c00c8a781d155480cb2635e5/qwen3-voices/pt_male.wav",
           "size": 514604,
           "sha256": "ef4763503043380fdf7b8aa735a349c9ca9efdddb5fa9c7779f289f4251d7c4b"
         },
@@ -671,7 +671,7 @@
           "id": "quality",
           "path": "quality.json",
           "url": "https://huggingface.co/ExNihilus/qwen3-tts-reference-voices/resolve/30e9464a5fd38569a41a48093d9a197c7b225346/quality.json",
-          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/dddbca390061df297ecbd49c1d21c1c0b628e4dd/qwen3-voices/quality.json",
+          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/63cee0f561691d51c00c8a781d155480cb2635e5/qwen3-voices/quality.json",
           "size": 4255,
           "sha256": "8524779c0fb55a38da909e91b70c058ee27359836d017618d1406823ffbb0a8c"
         },
@@ -679,7 +679,7 @@
           "id": "ru_female",
           "path": "ru_female.wav",
           "url": "https://huggingface.co/ExNihilus/qwen3-tts-reference-voices/resolve/30e9464a5fd38569a41a48093d9a197c7b225346/ru_female.wav",
-          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/dddbca390061df297ecbd49c1d21c1c0b628e4dd/qwen3-voices/ru_female.wav",
+          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/63cee0f561691d51c00c8a781d155480cb2635e5/qwen3-voices/ru_female.wav",
           "size": 518444,
           "sha256": "d0cd3bf359e56345b22b8d0dc51c136b24f0ddd04cc7f9197073267b7502dda2"
         },
@@ -687,7 +687,7 @@
           "id": "ru_male",
           "path": "ru_male.wav",
           "url": "https://huggingface.co/ExNihilus/qwen3-tts-reference-voices/resolve/30e9464a5fd38569a41a48093d9a197c7b225346/ru_male.wav",
-          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/dddbca390061df297ecbd49c1d21c1c0b628e4dd/qwen3-voices/ru_male.wav",
+          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/63cee0f561691d51c00c8a781d155480cb2635e5/qwen3-voices/ru_male.wav",
           "size": 587564,
           "sha256": "18d7d0d134dde3f6e6c049d1f05719027231c5021fa7c15730dd085be57a272a"
         },
@@ -695,7 +695,7 @@
           "id": "zh_female",
           "path": "zh_female.wav",
           "url": "https://huggingface.co/ExNihilus/qwen3-tts-reference-voices/resolve/30e9464a5fd38569a41a48093d9a197c7b225346/zh_female.wav",
-          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/dddbca390061df297ecbd49c1d21c1c0b628e4dd/qwen3-voices/zh_female.wav",
+          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/63cee0f561691d51c00c8a781d155480cb2635e5/qwen3-voices/zh_female.wav",
           "size": 576044,
           "sha256": "81497b916eca80d19e515c0ae0c0363da7b65494b274d318dfcf654286a6bfed"
         },
@@ -703,7 +703,7 @@
           "id": "zh_male",
           "path": "zh_male.wav",
           "url": "https://huggingface.co/ExNihilus/qwen3-tts-reference-voices/resolve/30e9464a5fd38569a41a48093d9a197c7b225346/zh_male.wav",
-          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/dddbca390061df297ecbd49c1d21c1c0b628e4dd/qwen3-voices/zh_male.wav",
+          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/63cee0f561691d51c00c8a781d155480cb2635e5/qwen3-voices/zh_male.wav",
           "size": 510764,
           "sha256": "bfddb166f8d550b971583fa8668488ab8cb7d1c70f0d538265632eb4f1f179aa"
         },
@@ -711,7 +711,7 @@
           "id": "voices",
           "path": "voices.json",
           "url": "https://huggingface.co/ExNihilus/qwen3-tts-reference-voices/resolve/30e9464a5fd38569a41a48093d9a197c7b225346/voices.json",
-          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/dddbca390061df297ecbd49c1d21c1c0b628e4dd/qwen3-voices/voices.json",
+          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/63cee0f561691d51c00c8a781d155480cb2635e5/qwen3-voices/voices.json",
           "size": 18419,
           "sha256": "a7832e18f8bd51e0d1f8ba6ba01b3c103d20e23453a5a0213071c0275301d13f"
         }
