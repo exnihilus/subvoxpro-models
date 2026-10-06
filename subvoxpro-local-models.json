@@ -10,14 +10,16 @@
         {
           "id": "base-lm",
           "path": "VoxCPM2-BaseLM-Q8_0.gguf",
-          "url": "https://huggingface.co/DennisHuang648/VoxCPM2-GGUF/resolve/169f64d8b98bbaab1761e4ca3a83e6af653456cc/VoxCPM2-BaseLM-Q8_0.gguf",
+          "url": "https://huggingface.co/ExNihilus/VoxCPM2-GGUF/resolve/2e93170d868fc9ef09407d2fe89b69d05ef23f07/VoxCPM2-BaseLM-Q8_0.gguf",
+          "fallbackUrl": "https://huggingface.co/DennisHuang648/VoxCPM2-GGUF/resolve/169f64d8b98bbaab1761e4ca3a83e6af653456cc/VoxCPM2-BaseLM-Q8_0.gguf",
           "size": 1727309920,
           "sha256": "0113177abd11303503bf0b705e1613ec5f0a8508cc74a7dfd0f99312b962a962"
         },
         {
           "id": "acoustic",
           "path": "VoxCPM2-Acoustic-F16.gguf",
-          "url": "https://huggingface.co/DennisHuang648/VoxCPM2-GGUF/resolve/169f64d8b98bbaab1761e4ca3a83e6af653456cc/VoxCPM2-Acoustic-F16.gguf",
+          "url": "https://huggingface.co/ExNihilus/VoxCPM2-GGUF/resolve/2e93170d868fc9ef09407d2fe89b69d05ef23f07/VoxCPM2-Acoustic-F16.gguf",
+          "fallbackUrl": "https://huggingface.co/DennisHuang648/VoxCPM2-GGUF/resolve/169f64d8b98bbaab1761e4ca3a83e6af653456cc/VoxCPM2-Acoustic-F16.gguf",
           "size": 1825096352,
           "sha256": "5bde898488ad635ff55d24da53543768fa33d5e5cdc538ce190e5ef831038e85"
         }
@@ -31,7 +33,8 @@
         {
           "id": "model",
           "path": "ggml-large-v2.bin",
-          "url": "https://huggingface.co/ggerganov/whisper.cpp/resolve/5359861c739e955e79d9a303bcbc70fb988958b1/ggml-large-v2.bin",
+          "url": "https://huggingface.co/ExNihilus/whisper.cpp/resolve/b74ef13afed372cf5ac0001d7c4f9a2bb7afd215/ggml-large-v2.bin",
+          "fallbackUrl": "https://huggingface.co/ggerganov/whisper.cpp/resolve/5359861c739e955e79d9a303bcbc70fb988958b1/ggml-large-v2.bin",
           "size": 3094623691,
           "sha256": "9a423fe4d40c82774b6af34115b8b935f34152246eb19e80e376071d3f999487"
         }
@@ -45,7 +48,8 @@
         {
           "id": "model",
           "path": "ggml-large-v3.bin",
-          "url": "https://huggingface.co/ggerganov/whisper.cpp/resolve/5359861c739e955e79d9a303bcbc70fb988958b1/ggml-large-v3.bin",
+          "url": "https://huggingface.co/ExNihilus/whisper.cpp/resolve/b74ef13afed372cf5ac0001d7c4f9a2bb7afd215/ggml-large-v3.bin",
+          "fallbackUrl": "https://huggingface.co/ggerganov/whisper.cpp/resolve/5359861c739e955e79d9a303bcbc70fb988958b1/ggml-large-v3.bin",
           "size": 3095033483,
           "sha256": "64d182b440b98d5203c4f9bd541544d84c605196c4f7b845dfa11fb23594d1e2"
         }
@@ -59,7 +63,8 @@
         {
           "id": "model",
           "path": "ggml-large-v3-turbo.bin",
-          "url": "https://huggingface.co/ggerganov/whisper.cpp/resolve/5359861c739e955e79d9a303bcbc70fb988958b1/ggml-large-v3-turbo.bin",
+          "url": "https://huggingface.co/ExNihilus/whisper.cpp/resolve/b74ef13afed372cf5ac0001d7c4f9a2bb7afd215/ggml-large-v3-turbo.bin",
+          "fallbackUrl": "https://huggingface.co/ggerganov/whisper.cpp/resolve/5359861c739e955e79d9a303bcbc70fb988958b1/ggml-large-v3-turbo.bin",
           "size": 1624555275,
           "sha256": "1fc70f774d38eb169993ac391eea357ef47c88757ef72ee5943879b7e8e2bc69"
         }
@@ -73,49 +78,56 @@
         {
           "id": "model",
           "path": "kokoro-v1.0.onnx",
-          "url": "https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/kokoro-v1.0.onnx",
+          "url": "https://huggingface.co/ExNihilus/kokoro-onnx/resolve/9f31909e46def1b473b178c9fd330e00801fa1f4/kokoro-v1.0.onnx",
+          "fallbackUrl": "https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/kokoro-v1.0.onnx",
           "size": 325532387,
           "sha256": "7d5df8ecf7d4b1878015a32686053fd0eebe2bc377234608764cc0ef3636a6c5"
         },
         {
           "id": "voices",
           "path": "voices-v1.0.bin",
-          "url": "https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/voices-v1.0.bin",
+          "url": "https://huggingface.co/ExNihilus/kokoro-onnx/resolve/9f31909e46def1b473b178c9fd330e00801fa1f4/voices-v1.0.bin",
+          "fallbackUrl": "https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/voices-v1.0.bin",
           "size": 28214398,
           "sha256": "bca610b8308e8d99f32e6fe4197e7ec01679264efed0cac9140fe9c29f1fbf7d"
         },
         {
           "id": "config",
           "path": "config.json",
-          "url": "https://huggingface.co/hexgrad/Kokoro-82M/resolve/f3ff3571791e39611d31c381e3a41a3af07b4987/config.json",
+          "url": "https://huggingface.co/ExNihilus/kokoro-onnx/resolve/9f31909e46def1b473b178c9fd330e00801fa1f4/config.json",
+          "fallbackUrl": "https://huggingface.co/hexgrad/Kokoro-82M/resolve/f3ff3571791e39611d31c381e3a41a3af07b4987/config.json",
           "size": 2351,
           "sha256": "5abb01e2403b072bf03d04fde160443e209d7a0dad49a423be15196b9b43c17f"
         },
         {
           "id": "us-gold",
           "path": "dict/us_gold.json",
-          "url": "https://raw.githubusercontent.com/hexgrad/misaki/fba1236595f2d2bf21d414ba6e57d25256afada3/misaki/data/us_gold.json",
+          "url": "https://huggingface.co/ExNihilus/kokoro-onnx/resolve/9f31909e46def1b473b178c9fd330e00801fa1f4/misaki/us_gold.json",
+          "fallbackUrl": "https://raw.githubusercontent.com/hexgrad/misaki/fba1236595f2d2bf21d414ba6e57d25256afada3/misaki/data/us_gold.json",
           "size": 3000469,
           "sha256": "dc414872a49a28ae6c141463d502fd945f3b2fde040484fdc47d00cc4612686f"
         },
         {
           "id": "us-silver",
           "path": "dict/us_silver.json",
-          "url": "https://raw.githubusercontent.com/hexgrad/misaki/fba1236595f2d2bf21d414ba6e57d25256afada3/misaki/data/us_silver.json",
+          "url": "https://huggingface.co/ExNihilus/kokoro-onnx/resolve/9f31909e46def1b473b178c9fd330e00801fa1f4/misaki/us_silver.json",
+          "fallbackUrl": "https://raw.githubusercontent.com/hexgrad/misaki/fba1236595f2d2bf21d414ba6e57d25256afada3/misaki/data/us_silver.json",
           "size": 3099517,
           "sha256": "de8f67be911bb6c659187b4a65fd966b6a30e56350e0f790d763210b053ac475"
         },
         {
           "id": "gb-gold",
           "path": "dict/gb_gold.json",
-          "url": "https://raw.githubusercontent.com/hexgrad/misaki/fba1236595f2d2bf21d414ba6e57d25256afada3/misaki/data/gb_gold.json",
+          "url": "https://huggingface.co/ExNihilus/kokoro-onnx/resolve/9f31909e46def1b473b178c9fd330e00801fa1f4/misaki/gb_gold.json",
+          "fallbackUrl": "https://raw.githubusercontent.com/hexgrad/misaki/fba1236595f2d2bf21d414ba6e57d25256afada3/misaki/data/gb_gold.json",
           "size": 2838552,
           "sha256": "29e62f4b60261c88f7f3c2c7811ca3825978948090b72d2b27d565b729282f71"
         },
         {
           "id": "gb-silver",
           "path": "dict/gb_silver.json",
-          "url": "https://raw.githubusercontent.com/hexgrad/misaki/fba1236595f2d2bf21d414ba6e57d25256afada3/misaki/data/gb_silver.json",
+          "url": "https://huggingface.co/ExNihilus/kokoro-onnx/resolve/9f31909e46def1b473b178c9fd330e00801fa1f4/misaki/gb_silver.json",
+          "fallbackUrl": "https://raw.githubusercontent.com/hexgrad/misaki/fba1236595f2d2bf21d414ba6e57d25256afada3/misaki/data/gb_silver.json",
           "size": 3663898,
           "sha256": "48131e2d92ccc41655f4543e87e0f938e71463eb5a54be7f0693bb712ebb6bce"
         }
@@ -129,56 +141,64 @@
         {
           "id": "model",
           "path": "model_q4.onnx",
-          "url": "https://huggingface.co/tonythethompson/Qwen3-ForcedAligner-0.6B-ONNX/resolve/dfae9e3dfb8a00410d8771158fafb01bac3fe2a5/onnx/model_q4.onnx",
+          "url": "https://huggingface.co/ExNihilus/Qwen3-ForcedAligner-0.6B-ONNX/resolve/5552cf743e4c5360cce67bf613030ab6a1313324/onnx/model_q4.onnx",
+          "fallbackUrl": "https://huggingface.co/tonythethompson/Qwen3-ForcedAligner-0.6B-ONNX/resolve/dfae9e3dfb8a00410d8771158fafb01bac3fe2a5/onnx/model_q4.onnx",
           "size": 1048397349,
           "sha256": "59b528896d70b34e57838e160d16d5f7cfc02d86c7c6ad46cdc57c25c15497b7"
         },
         {
           "id": "config",
           "path": "config.json",
-          "url": "https://huggingface.co/tonythethompson/Qwen3-ForcedAligner-0.6B-ONNX/resolve/dfae9e3dfb8a00410d8771158fafb01bac3fe2a5/config.json",
+          "url": "https://huggingface.co/ExNihilus/Qwen3-ForcedAligner-0.6B-ONNX/resolve/5552cf743e4c5360cce67bf613030ab6a1313324/config.json",
+          "fallbackUrl": "https://huggingface.co/tonythethompson/Qwen3-ForcedAligner-0.6B-ONNX/resolve/dfae9e3dfb8a00410d8771158fafb01bac3fe2a5/config.json",
           "size": 5725,
           "sha256": "91f38394bd8117ad2ccbdfc0942d9c100a7482d4c43688674ef2a40fe64eb061"
         },
         {
           "id": "preprocessor",
           "path": "preprocessor_config.json",
-          "url": "https://huggingface.co/tonythethompson/Qwen3-ForcedAligner-0.6B-ONNX/resolve/dfae9e3dfb8a00410d8771158fafb01bac3fe2a5/preprocessor_config.json",
+          "url": "https://huggingface.co/ExNihilus/Qwen3-ForcedAligner-0.6B-ONNX/resolve/5552cf743e4c5360cce67bf613030ab6a1313324/preprocessor_config.json",
+          "fallbackUrl": "https://huggingface.co/tonythethompson/Qwen3-ForcedAligner-0.6B-ONNX/resolve/dfae9e3dfb8a00410d8771158fafb01bac3fe2a5/preprocessor_config.json",
           "size": 357,
           "sha256": "0443a40d411d3caad769e7b59971fa6eae75926ed4b7e337e60da909eb38c1f7"
         },
         {
           "id": "tokenizer-config",
           "path": "tokenizer_config.json",
-          "url": "https://huggingface.co/tonythethompson/Qwen3-ForcedAligner-0.6B-ONNX/resolve/dfae9e3dfb8a00410d8771158fafb01bac3fe2a5/tokenizer_config.json",
+          "url": "https://huggingface.co/ExNihilus/Qwen3-ForcedAligner-0.6B-ONNX/resolve/5552cf743e4c5360cce67bf613030ab6a1313324/tokenizer_config.json",
+          "fallbackUrl": "https://huggingface.co/tonythethompson/Qwen3-ForcedAligner-0.6B-ONNX/resolve/dfae9e3dfb8a00410d8771158fafb01bac3fe2a5/tokenizer_config.json",
           "size": 12696,
           "sha256": "bee4786e25db33d3e8acb4c7a37c4ccf8d5a3d843b9cafb75a91d4ba774ad38f"
         },
         {
           "id": "special-tokens",
           "path": "special_tokens_map.json",
-          "url": "https://huggingface.co/tonythethompson/Qwen3-ForcedAligner-0.6B-ONNX/resolve/dfae9e3dfb8a00410d8771158fafb01bac3fe2a5/special_tokens_map.json",
+          "url": "https://huggingface.co/ExNihilus/Qwen3-ForcedAligner-0.6B-ONNX/resolve/5552cf743e4c5360cce67bf613030ab6a1313324/special_tokens_map.json",
+          "fallbackUrl": "https://huggingface.co/tonythethompson/Qwen3-ForcedAligner-0.6B-ONNX/resolve/dfae9e3dfb8a00410d8771158fafb01bac3fe2a5/special_tokens_map.json",
           "size": 1008,
           "sha256": "7b376c510ccf9d88bb9bbee41dfc5052122e16e0dec1124a8d8983c59259a9f3"
         },
         {
           "id": "added-tokens",
           "path": "added_tokens.json",
-          "url": "https://huggingface.co/tonythethompson/Qwen3-ForcedAligner-0.6B-ONNX/resolve/dfae9e3dfb8a00410d8771158fafb01bac3fe2a5/added_tokens.json",
+          "url": "https://huggingface.co/ExNihilus/Qwen3-ForcedAligner-0.6B-ONNX/resolve/5552cf743e4c5360cce67bf613030ab6a1313324/added_tokens.json",
+          "fallbackUrl": "https://huggingface.co/tonythethompson/Qwen3-ForcedAligner-0.6B-ONNX/resolve/dfae9e3dfb8a00410d8771158fafb01bac3fe2a5/added_tokens.json",
           "size": 1591,
           "sha256": "85afd03b7a7a9b0a97edf2b0e5dd9b0bf8770e05b0323268c0f1a3e5190cfa6f"
         },
         {
           "id": "vocab",
           "path": "vocab.json",
-          "url": "https://huggingface.co/tonythethompson/Qwen3-ForcedAligner-0.6B-ONNX/resolve/dfae9e3dfb8a00410d8771158fafb01bac3fe2a5/vocab.json",
+          "url": "https://huggingface.co/ExNihilus/Qwen3-ForcedAligner-0.6B-ONNX/resolve/5552cf743e4c5360cce67bf613030ab6a1313324/vocab.json",
+          "fallbackUrl": "https://huggingface.co/tonythethompson/Qwen3-ForcedAligner-0.6B-ONNX/resolve/dfae9e3dfb8a00410d8771158fafb01bac3fe2a5/vocab.json",
           "size": 2776833,
           "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
         },
         {
           "id": "merges",
           "path": "merges.txt",
-          "url": "https://huggingface.co/tonythethompson/Qwen3-ForcedAligner-0.6B-ONNX/resolve/dfae9e3dfb8a00410d8771158fafb01bac3fe2a5/merges.txt",
+          "url": "https://huggingface.co/ExNihilus/Qwen3-ForcedAligner-0.6B-ONNX/resolve/5552cf743e4c5360cce67bf613030ab6a1313324/merges.txt",
+          "fallbackUrl": "https://huggingface.co/tonythethompson/Qwen3-ForcedAligner-0.6B-ONNX/resolve/dfae9e3dfb8a00410d8771158fafb01bac3fe2a5/merges.txt",
           "size": 1671853,
           "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
         }
@@ -192,119 +212,136 @@
         {
           "id": "cangjie5-tc",
           "path": "Cangjie5_TC.json",
-          "url": "https://huggingface.co/onnx-community/chatterbox-multilingual-ONNX/resolve/452d3f434aa592098f1eedac9099f33642ab2da5/Cangjie5_TC.json",
+          "url": "https://huggingface.co/ExNihilus/chatterbox-multilingual-ONNX/resolve/fc8a561124efb2f517ac8d4caefbb10e333d9738/Cangjie5_TC.json",
+          "fallbackUrl": "https://huggingface.co/onnx-community/chatterbox-multilingual-ONNX/resolve/452d3f434aa592098f1eedac9099f33642ab2da5/Cangjie5_TC.json",
           "size": 1920163,
           "sha256": "7073fd9de919443ae88e0bd2449917a65fe54898a4413ed1edcc4b67f28bce8c"
         },
         {
           "id": "default-voice",
           "path": "default_voice.wav",
-          "url": "https://huggingface.co/onnx-community/chatterbox-multilingual-ONNX/resolve/452d3f434aa592098f1eedac9099f33642ab2da5/default_voice.wav",
+          "url": "https://huggingface.co/ExNihilus/chatterbox-multilingual-ONNX/resolve/fc8a561124efb2f517ac8d4caefbb10e333d9738/default_voice.wav",
+          "fallbackUrl": "https://huggingface.co/onnx-community/chatterbox-multilingual-ONNX/resolve/452d3f434aa592098f1eedac9099f33642ab2da5/default_voice.wav",
           "size": 714320,
           "sha256": "3ebc531cdaba358a327099c1c4f0448026719957bcf4d8e9868767f227e02f4e"
         },
         {
           "id": "tokenizer",
           "path": "tokenizer.json",
-          "url": "https://huggingface.co/onnx-community/chatterbox-multilingual-ONNX/resolve/452d3f434aa592098f1eedac9099f33642ab2da5/tokenizer.json",
+          "url": "https://huggingface.co/ExNihilus/chatterbox-multilingual-ONNX/resolve/fc8a561124efb2f517ac8d4caefbb10e333d9738/tokenizer.json",
+          "fallbackUrl": "https://huggingface.co/onnx-community/chatterbox-multilingual-ONNX/resolve/452d3f434aa592098f1eedac9099f33642ab2da5/tokenizer.json",
           "size": 71798,
           "sha256": "29d48c4a178f6af3ad5130097c34744639e9294847b38a7b912c8c68027cb819"
         },
         {
           "id": "embed-tokens",
           "path": "onnx/embed_tokens.onnx",
-          "url": "https://huggingface.co/onnx-community/chatterbox-multilingual-ONNX/resolve/452d3f434aa592098f1eedac9099f33642ab2da5/onnx/embed_tokens.onnx",
+          "url": "https://huggingface.co/ExNihilus/chatterbox-multilingual-ONNX/resolve/fc8a561124efb2f517ac8d4caefbb10e333d9738/onnx/embed_tokens.onnx",
+          "fallbackUrl": "https://huggingface.co/onnx-community/chatterbox-multilingual-ONNX/resolve/452d3f434aa592098f1eedac9099f33642ab2da5/onnx/embed_tokens.onnx",
           "size": 13286,
           "sha256": "f785819ca4f6271262d5bb8971d62796c3a909e3b031982c113dbe83a4c3b854"
         },
         {
           "id": "embed-tokens-data",
           "path": "onnx/embed_tokens.onnx_data",
-          "url": "https://huggingface.co/onnx-community/chatterbox-multilingual-ONNX/resolve/452d3f434aa592098f1eedac9099f33642ab2da5/onnx/embed_tokens.onnx_data",
+          "url": "https://huggingface.co/ExNihilus/chatterbox-multilingual-ONNX/resolve/fc8a561124efb2f517ac8d4caefbb10e333d9738/onnx/embed_tokens.onnx_data",
+          "fallbackUrl": "https://huggingface.co/onnx-community/chatterbox-multilingual-ONNX/resolve/452d3f434aa592098f1eedac9099f33642ab2da5/onnx/embed_tokens.onnx_data",
           "size": 68390912,
           "sha256": "2a15f7dd73b2ee47f6edf87740324011594b5a528ed6471ae55e327ed6cad68c"
         },
         {
           "id": "language-model",
           "path": "onnx/language_model.onnx",
-          "url": "https://huggingface.co/onnx-community/chatterbox-multilingual-ONNX/resolve/452d3f434aa592098f1eedac9099f33642ab2da5/onnx/language_model.onnx",
+          "url": "https://huggingface.co/ExNihilus/chatterbox-multilingual-ONNX/resolve/fc8a561124efb2f517ac8d4caefbb10e333d9738/onnx/language_model.onnx",
+          "fallbackUrl": "https://huggingface.co/onnx-community/chatterbox-multilingual-ONNX/resolve/452d3f434aa592098f1eedac9099f33642ab2da5/onnx/language_model.onnx",
           "size": 171387,
           "sha256": "861a34585605e8ad671051788afc495dcbeaee833a41523a1b33aded9c3babc7"
         },
         {
           "id": "language-model-data",
           "path": "onnx/language_model.onnx_data",
-          "url": "https://huggingface.co/onnx-community/chatterbox-multilingual-ONNX/resolve/452d3f434aa592098f1eedac9099f33642ab2da5/onnx/language_model.onnx_data",
+          "url": "https://huggingface.co/ExNihilus/chatterbox-multilingual-ONNX/resolve/fc8a561124efb2f517ac8d4caefbb10e333d9738/onnx/language_model.onnx_data",
+          "fallbackUrl": "https://huggingface.co/onnx-community/chatterbox-multilingual-ONNX/resolve/452d3f434aa592098f1eedac9099f33642ab2da5/onnx/language_model.onnx_data",
           "size": 2080632832,
           "sha256": "b3556d41085196c122b7197e4d44ec4475b6d7cfe0971a70faa95caa38ad787a"
         },
         {
           "id": "language-model-dml",
           "path": "onnx/language_model_dml.onnx",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/4d24d935c1ab72f409f2c4f011bbe2a319b6d087/chatterbox-multilingual/language_model_dml.onnx",
+          "url": "https://huggingface.co/ExNihilus/chatterbox-multilingual-ONNX-DML/resolve/27454879c0333b6356166388f20c8fe7a1bfbb95/language_model_dml.onnx",
+          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/4d24d935c1ab72f409f2c4f011bbe2a319b6d087/chatterbox-multilingual/language_model_dml.onnx",
           "size": 493817,
           "sha256": "e1520a2289ab846b89c0004ab862425a9b353a99ec2beb06343a007fb25c8baf"
         },
         {
           "id": "speech-encoder",
           "path": "onnx/speech_encoder.onnx",
-          "url": "https://huggingface.co/onnx-community/chatterbox-multilingual-ONNX/resolve/452d3f434aa592098f1eedac9099f33642ab2da5/onnx/speech_encoder.onnx",
+          "url": "https://huggingface.co/ExNihilus/chatterbox-multilingual-ONNX/resolve/fc8a561124efb2f517ac8d4caefbb10e333d9738/onnx/speech_encoder.onnx",
+          "fallbackUrl": "https://huggingface.co/onnx-community/chatterbox-multilingual-ONNX/resolve/452d3f434aa592098f1eedac9099f33642ab2da5/onnx/speech_encoder.onnx",
           "size": 1184608,
           "sha256": "8f1c8a0f89b77bf9cd5dd8f2e034eb2c79dc00fe70d41196b28c257643b00ccb"
         },
         {
           "id": "speech-encoder-data",
           "path": "onnx/speech_encoder.onnx_data",
-          "url": "https://huggingface.co/onnx-community/chatterbox-multilingual-ONNX/resolve/452d3f434aa592098f1eedac9099f33642ab2da5/onnx/speech_encoder.onnx_data",
+          "url": "https://huggingface.co/ExNihilus/chatterbox-multilingual-ONNX/resolve/fc8a561124efb2f517ac8d4caefbb10e333d9738/onnx/speech_encoder.onnx_data",
+          "fallbackUrl": "https://huggingface.co/onnx-community/chatterbox-multilingual-ONNX/resolve/452d3f434aa592098f1eedac9099f33642ab2da5/onnx/speech_encoder.onnx_data",
           "size": 591274880,
           "sha256": "92f8f290fc9720e169bc2412c507209e20b03f6564bc3243739e25c56f7dfb8f"
         },
         {
           "id": "decoder-onnx-data",
           "path": "onnx/conditional_decoder.onnx_data",
-          "url": "https://huggingface.co/onnx-community/chatterbox-multilingual-ONNX/resolve/452d3f434aa592098f1eedac9099f33642ab2da5/onnx/conditional_decoder.onnx_data",
+          "url": "https://huggingface.co/ExNihilus/chatterbox-multilingual-ONNX/resolve/fc8a561124efb2f517ac8d4caefbb10e333d9738/onnx/conditional_decoder.onnx_data",
+          "fallbackUrl": "https://huggingface.co/onnx-community/chatterbox-multilingual-ONNX/resolve/452d3f434aa592098f1eedac9099f33642ab2da5/onnx/conditional_decoder.onnx_data",
           "size": 533970816,
           "sha256": "51d58345a272747665ec9d5bb61e01835258a940e321a288582ac4c18cf01b5a"
         },
         {
           "id": "decoder-group00",
           "path": "onnx/conditional_decoder.group00.onnx",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/2e5bcbe618fae6ab050cdedc74419c4bcb1ec299/chatterbox-multilingual/conditional_decoder.group00.onnx",
+          "url": "https://huggingface.co/ExNihilus/chatterbox-multilingual-ONNX-DML/resolve/27454879c0333b6356166388f20c8fe7a1bfbb95/conditional_decoder.group00.onnx",
+          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/2e5bcbe618fae6ab050cdedc74419c4bcb1ec299/chatterbox-multilingual/conditional_decoder.group00.onnx",
           "size": 834597,
           "sha256": "6b5f3552dd127a786b22966abdfa3abdb752a8b51452471cbd8ac510bc7442f7"
         },
         {
           "id": "decoder-group01",
           "path": "onnx/conditional_decoder.group01.onnx",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/2e5bcbe618fae6ab050cdedc74419c4bcb1ec299/chatterbox-multilingual/conditional_decoder.group01.onnx",
+          "url": "https://huggingface.co/ExNihilus/chatterbox-multilingual-ONNX-DML/resolve/27454879c0333b6356166388f20c8fe7a1bfbb95/conditional_decoder.group01.onnx",
+          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/2e5bcbe618fae6ab050cdedc74419c4bcb1ec299/chatterbox-multilingual/conditional_decoder.group01.onnx",
           "size": 829222,
           "sha256": "d6f9ef508349323af76ca489a8a614b6571e572bde595f3d9cc3daf11c842d31"
         },
         {
           "id": "decoder-group02",
           "path": "onnx/conditional_decoder.group02.onnx",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/2e5bcbe618fae6ab050cdedc74419c4bcb1ec299/chatterbox-multilingual/conditional_decoder.group02.onnx",
+          "url": "https://huggingface.co/ExNihilus/chatterbox-multilingual-ONNX-DML/resolve/27454879c0333b6356166388f20c8fe7a1bfbb95/conditional_decoder.group02.onnx",
+          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/2e5bcbe618fae6ab050cdedc74419c4bcb1ec299/chatterbox-multilingual/conditional_decoder.group02.onnx",
           "size": 831379,
           "sha256": "de5b7cae9a53be205684e6cf91f2647a4d9bdc7dd536499f04870e99b1df58ee"
         },
         {
           "id": "decoder-group03",
           "path": "onnx/conditional_decoder.group03.onnx",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/2e5bcbe618fae6ab050cdedc74419c4bcb1ec299/chatterbox-multilingual/conditional_decoder.group03.onnx",
+          "url": "https://huggingface.co/ExNihilus/chatterbox-multilingual-ONNX-DML/resolve/27454879c0333b6356166388f20c8fe7a1bfbb95/conditional_decoder.group03.onnx",
+          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/2e5bcbe618fae6ab050cdedc74419c4bcb1ec299/chatterbox-multilingual/conditional_decoder.group03.onnx",
           "size": 828657,
           "sha256": "a39ac3ab7118160601b641a64f33d4e539a4cbdc695f84d87286cb4b73c2bbb3"
         },
         {
           "id": "decoder-group04",
           "path": "onnx/conditional_decoder.group04.onnx",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/2e5bcbe618fae6ab050cdedc74419c4bcb1ec299/chatterbox-multilingual/conditional_decoder.group04.onnx",
+          "url": "https://huggingface.co/ExNihilus/chatterbox-multilingual-ONNX-DML/resolve/27454879c0333b6356166388f20c8fe7a1bfbb95/conditional_decoder.group04.onnx",
+          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/2e5bcbe618fae6ab050cdedc74419c4bcb1ec299/chatterbox-multilingual/conditional_decoder.group04.onnx",
           "size": 829617,
           "sha256": "f3b5899b6575cb06abb66d56367763ab56aa72d29de3a3e6ec75cc320d4cef9d"
         },
         {
           "id": "decoder-group05",
           "path": "onnx/conditional_decoder.group05.onnx",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/2e5bcbe618fae6ab050cdedc74419c4bcb1ec299/chatterbox-multilingual/conditional_decoder.group05.onnx",
+          "url": "https://huggingface.co/ExNihilus/chatterbox-multilingual-ONNX-DML/resolve/27454879c0333b6356166388f20c8fe7a1bfbb95/conditional_decoder.group05.onnx",
+          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/2e5bcbe618fae6ab050cdedc74419c4bcb1ec299/chatterbox-multilingual/conditional_decoder.group05.onnx",
           "size": 885706,
           "sha256": "e9233442ab5e1cff029ea313023875123fecd109272f6d707a3159a434d7831e"
         }
@@ -318,35 +355,40 @@
         {
           "id": "lexicon",
           "path": "ipadic/lexicon.tsv.gz",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/44886a448646d13332106b77b3277db09795e91c/ipadic/lexicon.tsv.gz",
+          "url": "https://huggingface.co/ExNihilus/mecab-ipadic-utf8/resolve/89cf3b2acc1f9b334e023e55c3c1b4de3b514b66/lexicon.tsv.gz",
+          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/44886a448646d13332106b77b3277db09795e91c/ipadic/lexicon.tsv.gz",
           "size": 4072966,
           "sha256": "20079b18e30dc5409395c36ac3d66733e57761440295484c538ed2d2157b16a8"
         },
         {
           "id": "matrix",
           "path": "ipadic/matrix.bin.gz",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/44886a448646d13332106b77b3277db09795e91c/ipadic/matrix.bin.gz",
+          "url": "https://huggingface.co/ExNihilus/mecab-ipadic-utf8/resolve/89cf3b2acc1f9b334e023e55c3c1b4de3b514b66/matrix.bin.gz",
+          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/44886a448646d13332106b77b3277db09795e91c/ipadic/matrix.bin.gz",
           "size": 1674851,
           "sha256": "d22403ba0d0d215bfe5f56a7874d8210e77091a07ff63dbc86284dd367152af3"
         },
         {
           "id": "character-definitions",
           "path": "ipadic/char.def",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/44886a448646d13332106b77b3277db09795e91c/ipadic/char.def",
+          "url": "https://huggingface.co/ExNihilus/mecab-ipadic-utf8/resolve/89cf3b2acc1f9b334e023e55c3c1b4de3b514b66/char.def",
+          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/44886a448646d13332106b77b3277db09795e91c/ipadic/char.def",
           "size": 4109,
           "sha256": "0c0340faa677d2bc6d89fec279d49e9663ab26f23c3e0acdac2f9d2ba6ad372a"
         },
         {
           "id": "unknown-definitions",
           "path": "ipadic/unk.def",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/44886a448646d13332106b77b3277db09795e91c/ipadic/unk.def",
+          "url": "https://huggingface.co/ExNihilus/mecab-ipadic-utf8/resolve/89cf3b2acc1f9b334e023e55c3c1b4de3b514b66/unk.def",
+          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/44886a448646d13332106b77b3277db09795e91c/ipadic/unk.def",
           "size": 2198,
           "sha256": "5361b46fc49530de6b6de79714e5f8a350055b338e1cf99e4530753f95cba548"
         },
         {
           "id": "license",
           "path": "ipadic/COPYING",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/44886a448646d13332106b77b3277db09795e91c/ipadic/COPYING",
+          "url": "https://huggingface.co/ExNihilus/mecab-ipadic-utf8/resolve/89cf3b2acc1f9b334e023e55c3c1b4de3b514b66/COPYING",
+          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/44886a448646d13332106b77b3277db09795e91c/ipadic/COPYING",
           "size": 3792,
           "sha256": "0cc49a2743d845a9f3ea44ec3d7a6acc0aa8f0380772020310f3389713c45cbc"
         }
@@ -360,35 +402,40 @@
         {
           "id": "preprocessor",
           "path": "nemo128.onnx",
-          "url": "https://huggingface.co/istupakov/parakeet-tdt-0.6b-v3-onnx/resolve/8f23f0c03c8761650bdb5b40aaf3e40d2c15f1ce/nemo128.onnx",
+          "url": "https://huggingface.co/ExNihilus/parakeet-tdt-0.6b-v3-onnx/resolve/d4dc2b1838800c7bd1268bd97f1ad6f2875d6859/nemo128.onnx",
+          "fallbackUrl": "https://huggingface.co/istupakov/parakeet-tdt-0.6b-v3-onnx/resolve/8f23f0c03c8761650bdb5b40aaf3e40d2c15f1ce/nemo128.onnx",
           "size": 139764,
           "sha256": "a9fde1486ebfcc08f328d75ad4610c67835fea58c73ba57e3209a6f6cf019e9f"
         },
         {
           "id": "encoder",
           "path": "encoder-model.int8.onnx",
-          "url": "https://huggingface.co/istupakov/parakeet-tdt-0.6b-v3-onnx/resolve/8f23f0c03c8761650bdb5b40aaf3e40d2c15f1ce/encoder-model.int8.onnx",
+          "url": "https://huggingface.co/ExNihilus/parakeet-tdt-0.6b-v3-onnx/resolve/d4dc2b1838800c7bd1268bd97f1ad6f2875d6859/encoder-model.int8.onnx",
+          "fallbackUrl": "https://huggingface.co/istupakov/parakeet-tdt-0.6b-v3-onnx/resolve/8f23f0c03c8761650bdb5b40aaf3e40d2c15f1ce/encoder-model.int8.onnx",
           "size": 652183999,
           "sha256": "6139d2fa7e1b086097b277c7149725edbab89cc7c7ae64b23c741be4055aff09"
         },
         {
           "id": "decoder-joint",
           "path": "decoder_joint-model.int8.onnx",
-          "url": "https://huggingface.co/istupakov/parakeet-tdt-0.6b-v3-onnx/resolve/8f23f0c03c8761650bdb5b40aaf3e40d2c15f1ce/decoder_joint-model.int8.onnx",
+          "url": "https://huggingface.co/ExNihilus/parakeet-tdt-0.6b-v3-onnx/resolve/d4dc2b1838800c7bd1268bd97f1ad6f2875d6859/decoder_joint-model.int8.onnx",
+          "fallbackUrl": "https://huggingface.co/istupakov/parakeet-tdt-0.6b-v3-onnx/resolve/8f23f0c03c8761650bdb5b40aaf3e40d2c15f1ce/decoder_joint-model.int8.onnx",
           "size": 18202004,
           "sha256": "eea7483ee3d1a30375daedc8ed83e3960c91b098812127a0d99d1c8977667a70"
         },
         {
           "id": "vocab",
           "path": "vocab.txt",
-          "url": "https://huggingface.co/istupakov/parakeet-tdt-0.6b-v3-onnx/resolve/8f23f0c03c8761650bdb5b40aaf3e40d2c15f1ce/vocab.txt",
+          "url": "https://huggingface.co/ExNihilus/parakeet-tdt-0.6b-v3-onnx/resolve/d4dc2b1838800c7bd1268bd97f1ad6f2875d6859/vocab.txt",
+          "fallbackUrl": "https://huggingface.co/istupakov/parakeet-tdt-0.6b-v3-onnx/resolve/8f23f0c03c8761650bdb5b40aaf3e40d2c15f1ce/vocab.txt",
           "size": 93939,
           "sha256": "d58544679ea4bc6ac563d1f545eb7d474bd6cfa467f0a6e2c1dc1c7d37e3c35d"
         },
         {
           "id": "config",
           "path": "config.json",
-          "url": "https://huggingface.co/istupakov/parakeet-tdt-0.6b-v3-onnx/resolve/8f23f0c03c8761650bdb5b40aaf3e40d2c15f1ce/config.json",
+          "url": "https://huggingface.co/ExNihilus/parakeet-tdt-0.6b-v3-onnx/resolve/d4dc2b1838800c7bd1268bd97f1ad6f2875d6859/config.json",
+          "fallbackUrl": "https://huggingface.co/istupakov/parakeet-tdt-0.6b-v3-onnx/resolve/8f23f0c03c8761650bdb5b40aaf3e40d2c15f1ce/config.json",
           "size": 97,
           "sha256": "666903c76b9798caf2c210afd4f6cd60b08a8dbf9800ec8d7a3bc0d2148ac466"
         }
@@ -402,14 +449,16 @@
         {
           "id": "talker",
           "path": "qwen-talker-1.7b-customvoice-Q8_0.gguf",
-          "url": "https://huggingface.co/Serveurperso/Qwen3-TTS-GGUF/resolve/b7ee2e8c7459c3bea99da23e3d178125a7d1713c/qwen-talker-1.7b-customvoice-Q8_0.gguf",
+          "url": "https://huggingface.co/ExNihilus/Qwen3-TTS-GGUF/resolve/7a67e407583cc7b7a0cf1b522b0f127993a3668d/qwen-talker-1.7b-customvoice-Q8_0.gguf",
+          "fallbackUrl": "https://huggingface.co/Serveurperso/Qwen3-TTS-GGUF/resolve/b7ee2e8c7459c3bea99da23e3d178125a7d1713c/qwen-talker-1.7b-customvoice-Q8_0.gguf",
           "size": 2042834304,
           "sha256": "cab2cff67a0a557310febe558dc83076b28ed790e491867eb2751759f4cd89fa"
         },
         {
           "id": "tokenizer",
           "path": "qwen-tokenizer-12hz-Q8_0.gguf",
-          "url": "https://huggingface.co/Serveurperso/Qwen3-TTS-GGUF/resolve/b7ee2e8c7459c3bea99da23e3d178125a7d1713c/qwen-tokenizer-12hz-Q8_0.gguf",
+          "url": "https://huggingface.co/ExNihilus/Qwen3-TTS-GGUF/resolve/7a67e407583cc7b7a0cf1b522b0f127993a3668d/qwen-tokenizer-12hz-Q8_0.gguf",
+          "fallbackUrl": "https://huggingface.co/Serveurperso/Qwen3-TTS-GGUF/resolve/b7ee2e8c7459c3bea99da23e3d178125a7d1713c/qwen-tokenizer-12hz-Q8_0.gguf",
           "size": 291150624,
           "sha256": "1883beeed99348fc35e23dd225e9082f93f6f8c109330a33d935baa8acdbfd94"
         }
@@ -423,14 +472,16 @@
         {
           "id": "talker",
           "path": "qwen-talker-1.7b-base-Q8_0.gguf",
-          "url": "https://huggingface.co/Serveurperso/Qwen3-TTS-GGUF/resolve/b7ee2e8c7459c3bea99da23e3d178125a7d1713c/qwen-talker-1.7b-base-Q8_0.gguf",
+          "url": "https://huggingface.co/ExNihilus/Qwen3-TTS-GGUF/resolve/7a67e407583cc7b7a0cf1b522b0f127993a3668d/qwen-talker-1.7b-base-Q8_0.gguf",
+          "fallbackUrl": "https://huggingface.co/Serveurperso/Qwen3-TTS-GGUF/resolve/b7ee2e8c7459c3bea99da23e3d178125a7d1713c/qwen-talker-1.7b-base-Q8_0.gguf",
           "size": 2079448256,
           "sha256": "4b9a33a236908dd9435a42f7a396e38038329d053b704342a6413c08544c4fda"
         },
         {
           "id": "tokenizer",
           "path": "qwen-tokenizer-12hz-Q8_0.gguf",
-          "url": "https://huggingface.co/Serveurperso/Qwen3-TTS-GGUF/resolve/b7ee2e8c7459c3bea99da23e3d178125a7d1713c/qwen-tokenizer-12hz-Q8_0.gguf",
+          "url": "https://huggingface.co/ExNihilus/Qwen3-TTS-GGUF/resolve/7a67e407583cc7b7a0cf1b522b0f127993a3668d/qwen-tokenizer-12hz-Q8_0.gguf",
+          "fallbackUrl": "https://huggingface.co/Serveurperso/Qwen3-TTS-GGUF/resolve/b7ee2e8c7459c3bea99da23e3d178125a7d1713c/qwen-tokenizer-12hz-Q8_0.gguf",
           "size": 291150624,
           "sha256": "1883beeed99348fc35e23dd225e9082f93f6f8c109330a33d935baa8acdbfd94"
         }
@@ -444,14 +495,16 @@
         {
           "id": "talker",
           "path": "qwen-talker-1.7b-voicedesign-Q8_0.gguf",
-          "url": "https://huggingface.co/Serveurperso/Qwen3-TTS-GGUF/resolve/b7ee2e8c7459c3bea99da23e3d178125a7d1713c/qwen-talker-1.7b-voicedesign-Q8_0.gguf",
+          "url": "https://huggingface.co/ExNihilus/Qwen3-TTS-GGUF/resolve/7a67e407583cc7b7a0cf1b522b0f127993a3668d/qwen-talker-1.7b-voicedesign-Q8_0.gguf",
+          "fallbackUrl": "https://huggingface.co/Serveurperso/Qwen3-TTS-GGUF/resolve/b7ee2e8c7459c3bea99da23e3d178125a7d1713c/qwen-talker-1.7b-voicedesign-Q8_0.gguf",
           "size": 2042833824,
           "sha256": "575610ab1ddcca4dca6bd9a64bcd859d93bbad8764f9cab24e1dbc0c51f62276"
         },
         {
           "id": "tokenizer",
           "path": "qwen-tokenizer-12hz-Q8_0.gguf",
-          "url": "https://huggingface.co/Serveurperso/Qwen3-TTS-GGUF/resolve/b7ee2e8c7459c3bea99da23e3d178125a7d1713c/qwen-tokenizer-12hz-Q8_0.gguf",
+          "url": "https://huggingface.co/ExNihilus/Qwen3-TTS-GGUF/resolve/7a67e407583cc7b7a0cf1b522b0f127993a3668d/qwen-tokenizer-12hz-Q8_0.gguf",
+          "fallbackUrl": "https://huggingface.co/Serveurperso/Qwen3-TTS-GGUF/resolve/b7ee2e8c7459c3bea99da23e3d178125a7d1713c/qwen-tokenizer-12hz-Q8_0.gguf",
           "size": 291150624,
           "sha256": "1883beeed99348fc35e23dd225e9082f93f6f8c109330a33d935baa8acdbfd94"
         }
@@ -465,175 +518,200 @@
         {
           "id": "LICENSE",
           "path": "LICENSE.txt",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/dddbca390061df297ecbd49c1d21c1c0b628e4dd/qwen3-voices/LICENSE.txt",
+          "url": "https://huggingface.co/ExNihilus/qwen3-tts-reference-voices/resolve/30e9464a5fd38569a41a48093d9a197c7b225346/LICENSE.txt",
+          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/dddbca390061df297ecbd49c1d21c1c0b628e4dd/qwen3-voices/LICENSE.txt",
           "size": 7048,
           "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
         },
         {
           "id": "NOTICE",
           "path": "NOTICE.md",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/dddbca390061df297ecbd49c1d21c1c0b628e4dd/qwen3-voices/NOTICE.md",
+          "url": "https://huggingface.co/ExNihilus/qwen3-tts-reference-voices/resolve/30e9464a5fd38569a41a48093d9a197c7b225346/NOTICE.md",
+          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/dddbca390061df297ecbd49c1d21c1c0b628e4dd/qwen3-voices/NOTICE.md",
           "size": 1979,
           "sha256": "6a3ca58ee6589d421b762c5f5c04732f9a5671aaf02f6ee5d9898364d1b3e6f3"
         },
         {
           "id": "QWEN3-TTS-MODEL-LICENSE",
           "path": "QWEN3-TTS-MODEL-LICENSE.txt",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/dddbca390061df297ecbd49c1d21c1c0b628e4dd/qwen3-voices/QWEN3-TTS-MODEL-LICENSE.txt",
+          "url": "https://huggingface.co/ExNihilus/qwen3-tts-reference-voices/resolve/30e9464a5fd38569a41a48093d9a197c7b225346/QWEN3-TTS-MODEL-LICENSE.txt",
+          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/dddbca390061df297ecbd49c1d21c1c0b628e4dd/qwen3-voices/QWEN3-TTS-MODEL-LICENSE.txt",
           "size": 11343,
           "sha256": "a44a6081c73ad75f0255bb2bb5cab74ef1829565a895a24e53a4f11290ab7655"
         },
         {
           "id": "de_female",
           "path": "de_female.wav",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/dddbca390061df297ecbd49c1d21c1c0b628e4dd/qwen3-voices/de_female.wav",
+          "url": "https://huggingface.co/ExNihilus/qwen3-tts-reference-voices/resolve/30e9464a5fd38569a41a48093d9a197c7b225346/de_female.wav",
+          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/dddbca390061df297ecbd49c1d21c1c0b628e4dd/qwen3-voices/de_female.wav",
           "size": 610604,
           "sha256": "782e4b321b5adb65ea2fa4c4e2702434d0ab8dae23bd773b8bdc2cf0eb4a1321"
         },
         {
           "id": "de_male",
           "path": "de_male.wav",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/dddbca390061df297ecbd49c1d21c1c0b628e4dd/qwen3-voices/de_male.wav",
+          "url": "https://huggingface.co/ExNihilus/qwen3-tts-reference-voices/resolve/30e9464a5fd38569a41a48093d9a197c7b225346/de_male.wav",
+          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/dddbca390061df297ecbd49c1d21c1c0b628e4dd/qwen3-voices/de_male.wav",
           "size": 453164,
           "sha256": "4dfdba983970624f7b2c0c2d84bb2b7046e2d2912c0d5cf5f88452f1b1b636eb"
         },
         {
           "id": "en_female",
           "path": "en_female.wav",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/dddbca390061df297ecbd49c1d21c1c0b628e4dd/qwen3-voices/en_female.wav",
+          "url": "https://huggingface.co/ExNihilus/qwen3-tts-reference-voices/resolve/30e9464a5fd38569a41a48093d9a197c7b225346/en_female.wav",
+          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/dddbca390061df297ecbd49c1d21c1c0b628e4dd/qwen3-voices/en_female.wav",
           "size": 437804,
           "sha256": "3d63f2b06d9f52a1275a6eb681eaf333f951194a936695409c8098ac4dc6ff6c"
         },
         {
           "id": "en_male",
           "path": "en_male.wav",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/dddbca390061df297ecbd49c1d21c1c0b628e4dd/qwen3-voices/en_male.wav",
+          "url": "https://huggingface.co/ExNihilus/qwen3-tts-reference-voices/resolve/30e9464a5fd38569a41a48093d9a197c7b225346/en_male.wav",
+          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/dddbca390061df297ecbd49c1d21c1c0b628e4dd/qwen3-voices/en_male.wav",
           "size": 480044,
           "sha256": "115aca4b974fdad37606081e0a1bf218f4d296fc0a03f6c914cd2f1a8a037817"
         },
         {
           "id": "es_female",
           "path": "es_female.wav",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/dddbca390061df297ecbd49c1d21c1c0b628e4dd/qwen3-voices/es_female.wav",
+          "url": "https://huggingface.co/ExNihilus/qwen3-tts-reference-voices/resolve/30e9464a5fd38569a41a48093d9a197c7b225346/es_female.wav",
+          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/dddbca390061df297ecbd49c1d21c1c0b628e4dd/qwen3-voices/es_female.wav",
           "size": 668204,
           "sha256": "338cb2293e795960a934ad399660c937872a836b31871db1e7d1e35b95961c9b"
         },
         {
           "id": "es_male",
           "path": "es_male.wav",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/dddbca390061df297ecbd49c1d21c1c0b628e4dd/qwen3-voices/es_male.wav",
+          "url": "https://huggingface.co/ExNihilus/qwen3-tts-reference-voices/resolve/30e9464a5fd38569a41a48093d9a197c7b225346/es_male.wav",
+          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/dddbca390061df297ecbd49c1d21c1c0b628e4dd/qwen3-voices/es_male.wav",
           "size": 518444,
           "sha256": "a097497aa3f5e95024c25ee1ce198e59cf6c7281ec6c6511fa086d81f4a640d7"
         },
         {
           "id": "fr_female",
           "path": "fr_female.wav",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/dddbca390061df297ecbd49c1d21c1c0b628e4dd/qwen3-voices/fr_female.wav",
+          "url": "https://huggingface.co/ExNihilus/qwen3-tts-reference-voices/resolve/30e9464a5fd38569a41a48093d9a197c7b225346/fr_female.wav",
+          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/dddbca390061df297ecbd49c1d21c1c0b628e4dd/qwen3-voices/fr_female.wav",
           "size": 460844,
           "sha256": "a04e304721d7cd3024d03c0166ff044be131b0b2644cf83e1993b50553688d46"
         },
         {
           "id": "fr_male",
           "path": "fr_male.wav",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/dddbca390061df297ecbd49c1d21c1c0b628e4dd/qwen3-voices/fr_male.wav",
+          "url": "https://huggingface.co/ExNihilus/qwen3-tts-reference-voices/resolve/30e9464a5fd38569a41a48093d9a197c7b225346/fr_male.wav",
+          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/dddbca390061df297ecbd49c1d21c1c0b628e4dd/qwen3-voices/fr_male.wav",
           "size": 568364,
           "sha256": "d7abcdbd5ca6375940c5ef468693cb5d9882e4f2a93bd228a078e8503d7d0a4e"
         },
         {
           "id": "it_female",
           "path": "it_female.wav",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/dddbca390061df297ecbd49c1d21c1c0b628e4dd/qwen3-voices/it_female.wav",
+          "url": "https://huggingface.co/ExNihilus/qwen3-tts-reference-voices/resolve/30e9464a5fd38569a41a48093d9a197c7b225346/it_female.wav",
+          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/dddbca390061df297ecbd49c1d21c1c0b628e4dd/qwen3-voices/it_female.wav",
           "size": 618284,
           "sha256": "5f25a2c07af26c1f36e618b8c35e00ab1f53eaa67fd229f9d49991fa31a736e9"
         },
         {
           "id": "it_male",
           "path": "it_male.wav",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/dddbca390061df297ecbd49c1d21c1c0b628e4dd/qwen3-voices/it_male.wav",
+          "url": "https://huggingface.co/ExNihilus/qwen3-tts-reference-voices/resolve/30e9464a5fd38569a41a48093d9a197c7b225346/it_male.wav",
+          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/dddbca390061df297ecbd49c1d21c1c0b628e4dd/qwen3-voices/it_male.wav",
           "size": 506924,
           "sha256": "f2dbdbadf26b2adfd4421b20fadeb8935dd3752573ac1daab342d15fa6a6ff76"
         },
         {
           "id": "ja_female",
           "path": "ja_female.wav",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/dddbca390061df297ecbd49c1d21c1c0b628e4dd/qwen3-voices/ja_female.wav",
+          "url": "https://huggingface.co/ExNihilus/qwen3-tts-reference-voices/resolve/30e9464a5fd38569a41a48093d9a197c7b225346/ja_female.wav",
+          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/dddbca390061df297ecbd49c1d21c1c0b628e4dd/qwen3-voices/ja_female.wav",
           "size": 610604,
           "sha256": "564a117167e57e2757e917d226a88c5b1af6abcc0bbbd50d78260e7d3d9a0c6d"
         },
         {
           "id": "ja_male",
           "path": "ja_male.wav",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/dddbca390061df297ecbd49c1d21c1c0b628e4dd/qwen3-voices/ja_male.wav",
+          "url": "https://huggingface.co/ExNihilus/qwen3-tts-reference-voices/resolve/30e9464a5fd38569a41a48093d9a197c7b225346/ja_male.wav",
+          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/dddbca390061df297ecbd49c1d21c1c0b628e4dd/qwen3-voices/ja_male.wav",
           "size": 664364,
           "sha256": "b6878adea4185afd6b0cac2d3dbcf248e5c5abe87e35e822cb379a5cd5429455"
         },
         {
           "id": "ko_female",
           "path": "ko_female.wav",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/dddbca390061df297ecbd49c1d21c1c0b628e4dd/qwen3-voices/ko_female.wav",
+          "url": "https://huggingface.co/ExNihilus/qwen3-tts-reference-voices/resolve/30e9464a5fd38569a41a48093d9a197c7b225346/ko_female.wav",
+          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/dddbca390061df297ecbd49c1d21c1c0b628e4dd/qwen3-voices/ko_female.wav",
           "size": 614444,
           "sha256": "3be64a36d5f0ed5bfce2cc86e3c722f10bd50ae76222748a4089a91fa642a9d6"
         },
         {
           "id": "ko_male",
           "path": "ko_male.wav",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/dddbca390061df297ecbd49c1d21c1c0b628e4dd/qwen3-voices/ko_male.wav",
+          "url": "https://huggingface.co/ExNihilus/qwen3-tts-reference-voices/resolve/30e9464a5fd38569a41a48093d9a197c7b225346/ko_male.wav",
+          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/dddbca390061df297ecbd49c1d21c1c0b628e4dd/qwen3-voices/ko_male.wav",
           "size": 610604,
           "sha256": "99de8fd9ac5b14f920a3852585c0e6e35e9439cdd6ef163f99a8886f6f36df67"
         },
         {
           "id": "pt_female",
           "path": "pt_female.wav",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/dddbca390061df297ecbd49c1d21c1c0b628e4dd/qwen3-voices/pt_female.wav",
+          "url": "https://huggingface.co/ExNihilus/qwen3-tts-reference-voices/resolve/30e9464a5fd38569a41a48093d9a197c7b225346/pt_female.wav",
+          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/dddbca390061df297ecbd49c1d21c1c0b628e4dd/qwen3-voices/pt_female.wav",
           "size": 541484,
           "sha256": "b4034cf2499c6df746cde5033fa58e1a00b4bb1ced4db404b302e4d038a943d0"
         },
         {
           "id": "pt_male",
           "path": "pt_male.wav",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/dddbca390061df297ecbd49c1d21c1c0b628e4dd/qwen3-voices/pt_male.wav",
+          "url": "https://huggingface.co/ExNihilus/qwen3-tts-reference-voices/resolve/30e9464a5fd38569a41a48093d9a197c7b225346/pt_male.wav",
+          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/dddbca390061df297ecbd49c1d21c1c0b628e4dd/qwen3-voices/pt_male.wav",
           "size": 514604,
           "sha256": "ef4763503043380fdf7b8aa735a349c9ca9efdddb5fa9c7779f289f4251d7c4b"
         },
         {
           "id": "quality",
           "path": "quality.json",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/dddbca390061df297ecbd49c1d21c1c0b628e4dd/qwen3-voices/quality.json",
+          "url": "https://huggingface.co/ExNihilus/qwen3-tts-reference-voices/resolve/30e9464a5fd38569a41a48093d9a197c7b225346/quality.json",
+          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/dddbca390061df297ecbd49c1d21c1c0b628e4dd/qwen3-voices/quality.json",
           "size": 4255,
           "sha256": "8524779c0fb55a38da909e91b70c058ee27359836d017618d1406823ffbb0a8c"
         },
         {
           "id": "ru_female",
           "path": "ru_female.wav",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/dddbca390061df297ecbd49c1d21c1c0b628e4dd/qwen3-voices/ru_female.wav",
+          "url": "https://huggingface.co/ExNihilus/qwen3-tts-reference-voices/resolve/30e9464a5fd38569a41a48093d9a197c7b225346/ru_female.wav",
+          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/dddbca390061df297ecbd49c1d21c1c0b628e4dd/qwen3-voices/ru_female.wav",
           "size": 518444,
           "sha256": "d0cd3bf359e56345b22b8d0dc51c136b24f0ddd04cc7f9197073267b7502dda2"
         },
         {
           "id": "ru_male",
           "path": "ru_male.wav",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/dddbca390061df297ecbd49c1d21c1c0b628e4dd/qwen3-voices/ru_male.wav",
+          "url": "https://huggingface.co/ExNihilus/qwen3-tts-reference-voices/resolve/30e9464a5fd38569a41a48093d9a197c7b225346/ru_male.wav",
+          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/dddbca390061df297ecbd49c1d21c1c0b628e4dd/qwen3-voices/ru_male.wav",
           "size": 587564,
           "sha256": "18d7d0d134dde3f6e6c049d1f05719027231c5021fa7c15730dd085be57a272a"
         },
         {
           "id": "zh_female",
           "path": "zh_female.wav",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/dddbca390061df297ecbd49c1d21c1c0b628e4dd/qwen3-voices/zh_female.wav",
+          "url": "https://huggingface.co/ExNihilus/qwen3-tts-reference-voices/resolve/30e9464a5fd38569a41a48093d9a197c7b225346/zh_female.wav",
+          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/dddbca390061df297ecbd49c1d21c1c0b628e4dd/qwen3-voices/zh_female.wav",
           "size": 576044,
           "sha256": "81497b916eca80d19e515c0ae0c0363da7b65494b274d318dfcf654286a6bfed"
         },
         {
           "id": "zh_male",
           "path": "zh_male.wav",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/dddbca390061df297ecbd49c1d21c1c0b628e4dd/qwen3-voices/zh_male.wav",
+          "url": "https://huggingface.co/ExNihilus/qwen3-tts-reference-voices/resolve/30e9464a5fd38569a41a48093d9a197c7b225346/zh_male.wav",
+          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/dddbca390061df297ecbd49c1d21c1c0b628e4dd/qwen3-voices/zh_male.wav",
           "size": 510764,
           "sha256": "bfddb166f8d550b971583fa8668488ab8cb7d1c70f0d538265632eb4f1f179aa"
         },
         {
           "id": "voices",
           "path": "voices.json",
-          "url": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/dddbca390061df297ecbd49c1d21c1c0b628e4dd/qwen3-voices/voices.json",
+          "url": "https://huggingface.co/ExNihilus/qwen3-tts-reference-voices/resolve/30e9464a5fd38569a41a48093d9a197c7b225346/voices.json",
+          "fallbackUrl": "https://raw.githubusercontent.com/exnihilus/subvoxpro-models/dddbca390061df297ecbd49c1d21c1c0b628e4dd/qwen3-voices/voices.json",
           "size": 18419,
           "sha256": "a7832e18f8bd51e0d1f8ba6ba01b3c103d20e23453a5a0213071c0275301d13f"
         }
