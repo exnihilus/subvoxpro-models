@@ -5,9 +5,9 @@
       "Id": "fr_female",
       "ReferenceCharacterErrorRate": 0.0,
       "CloneCharacterErrorRate": 0.0,
-      "MedianPitchHz": 300.0,
-      "Peak": 0.615,
-      "DurationSeconds": 9.6
+      "MedianPitchHz": 201.7,
+      "Peak": 0.51,
+      "DurationSeconds": 8.72
     },
     {
       "Id": "fr_male",
@@ -37,9 +37,9 @@
       "Id": "de_female",
       "ReferenceCharacterErrorRate": 0.0,
       "CloneCharacterErrorRate": 0.0,
-      "MedianPitchHz": 237.6,
-      "Peak": 0.551,
-      "DurationSeconds": 12.72
+      "MedianPitchHz": 244.9,
+      "Peak": 0.581,
+      "DurationSeconds": 10.06
     },
     {
       "Id": "de_male",
@@ -53,9 +53,9 @@
       "Id": "es_female",
       "ReferenceCharacterErrorRate": 0.0,
       "CloneCharacterErrorRate": 0.0,
-      "MedianPitchHz": 244.9,
-      "Peak": 0.512,
-      "DurationSeconds": 13.92
+      "MedianPitchHz": 210.5,
+      "Peak": 0.628,
+      "DurationSeconds": 11.54
     },
     {
       "Id": "es_male",
@@ -67,11 +67,11 @@
     },
     {
       "Id": "pt_female",
-      "ReferenceCharacterErrorRate": 0.0,
-      "CloneCharacterErrorRate": 0.0078125,
-      "MedianPitchHz": 177.1,
-      "Peak": 0.557,
-      "DurationSeconds": 11.28
+      "ReferenceCharacterErrorRate": 0.016,
+      "CloneCharacterErrorRate": 0.0,
+      "MedianPitchHz": 228.6,
+      "Peak": 0.509,
+      "DurationSeconds": 11.76
     },
     {
       "Id": "pt_male",
@@ -83,11 +83,11 @@
     },
     {
       "Id": "it_female",
-      "ReferenceCharacterErrorRate": 0.0,
-      "CloneCharacterErrorRate": 0.0,
-      "MedianPitchHz": 214.3,
-      "Peak": 0.591,
-      "DurationSeconds": 12.88
+      "ReferenceCharacterErrorRate": 0.022,
+      "CloneCharacterErrorRate": 0.007,
+      "MedianPitchHz": 218.2,
+      "Peak": 0.602,
+      "DurationSeconds": 10.32
     },
     {
       "Id": "it_male",
@@ -101,9 +101,9 @@
       "Id": "ru_female",
       "ReferenceCharacterErrorRate": 0.0,
       "CloneCharacterErrorRate": 0.0,
-      "MedianPitchHz": 228.6,
-      "Peak": 0.481,
-      "DurationSeconds": 10.8
+      "MedianPitchHz": 216.2,
+      "Peak": 0.575,
+      "DurationSeconds": 10.88
     },
     {
       "Id": "ru_male",
@@ -117,9 +117,9 @@
       "Id": "zh_female",
       "ReferenceCharacterErrorRate": 0.0,
       "CloneCharacterErrorRate": 0.0,
-      "MedianPitchHz": 192.0,
-      "Peak": 0.59,
-      "DurationSeconds": 12.0
+      "MedianPitchHz": 233.0,
+      "Peak": 0.526,
+      "DurationSeconds": 13.12
     },
     {
       "Id": "zh_male",
@@ -133,9 +133,9 @@
       "Id": "ko_female",
       "ReferenceCharacterErrorRate": 0.0,
       "CloneCharacterErrorRate": 0.0,
-      "MedianPitchHz": 218.2,
-      "Peak": 0.568,
-      "DurationSeconds": 12.8
+      "MedianPitchHz": 272.7,
+      "Peak": 0.528,
+      "DurationSeconds": 14.96
     },
     {
       "Id": "ko_male",
@@ -147,11 +147,11 @@
     },
     {
       "Id": "ja_female",
-      "ReferenceCharacterErrorRate": 0.0,
+      "ReferenceCharacterErrorRate": 0.016,
       "CloneCharacterErrorRate": 0.0,
-      "MedianPitchHz": 289.2,
-      "Peak": 0.539,
-      "DurationSeconds": 12.72
+      "MedianPitchHz": 247.4,
+      "Peak": 0.577,
+      "DurationSeconds": 13.2
     },
     {
       "Id": "ja_male",
