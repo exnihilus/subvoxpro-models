@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-04",
+  "updatedAt": "2026-10-11",
   "translation": [
     { "provider": "OpenAI", "models": [
       { "id": "gpt-5.6-luna", "priceIn": 0.20, "priceOut": 1.20 },
@@ -46,6 +46,11 @@
     { "provider": "Azure",       "models": [
       { "id": "neural", "priceIn": 16 }
     ] },
+    { "provider": "Cartesia",    "models": [
+      { "id": "sonic-3.6", "priceIn": 65 },
+      { "id": "sonic-3.5", "priceIn": 65 },
+      { "id": "sonic-3", "priceIn": 65 }
+    ] },
     { "provider": "Gemini",      "models": [
       { "id": "gemini-3.8-flash-lite-tts", "realtime": { "textIn": 0.50, "textCachedIn": 0.125, "audioOut": 6.00, "audioTokensPerSecond": 25 } },
       { "id": "gemini-3.8-flash-tts", "realtime": { "textIn": 0.50, "textCachedIn": 0.125, "audioOut": 9.00, "audioTokensPerSecond": 25 } },
@@ -77,6 +82,9 @@
     ] },
     { "provider": "RevAI",        "models": [ 
       { "id": "reverb", "priceIn": 0.18 }
+    ] },
+    { "provider": "Cartesia",     "models": [
+      { "id": "ink-whisper", "priceIn": 0.70 }
     ] },
     { "provider": "OpenAI",       "models": [
       { "id": "gpt-transcribe", "priceIn": 0.27 }
