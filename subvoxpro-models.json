@@ -1,21 +1,19 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-12",
+  "updatedAt": "2026-10-31",
   "translation": [
     { "provider": "OpenAI", "models": [
-      { "id": "gpt-5.6-terra", "priceIn": 2.00, "priceOut": 12.00 },
-      { "id": "gpt-5.6-luna", "priceIn": 0.20, "priceOut": 1.20 },
-      { "id": "gpt-4.1-mini", "priceIn": 0.40, "priceOut": 1.60 },
-      { "id": "gpt-4o-mini",  "priceIn": 0.15, "priceOut": 0.60 }
+      { "id": "gpt-6.1-sol", "priceIn": 2.00, "priceOut": 10.00 },
+      { "id": "gpt-6.1-terra", "priceIn": 1.00, "priceOut": 5.00 },
+      { "id": "gpt-6-luna", "priceIn": 0.10, "priceOut": 0.50 }
     ] },
     { "provider": "Claude", "models": [
-      { "id": "claude-sonnet-5",   "priceIn": 2, "priceOut": 10 },
-      { "id": "claude-sonnet-4-6", "priceIn": 3, "priceOut": 15 },
-      { "id": "claude-haiku-4-5",  "priceIn": 1, "priceOut": 5 }
+      { "id": "claude-sonnet-5-5", "priceIn": 2, "priceOut": 10 },
+      { "id": "claude-haiku-5-5",  "priceIn": 0.10, "priceOut": 0.50 }
     ] },
     { "provider": "Gemini", "models": [
+      { "id": "gemini-3.8-flash",      "priceIn": 0.75, "priceOut": 3.75 },
       { "id": "gemini-3.5-flash-lite", "priceIn": 0.30, "priceOut": 2.50 },
-      { "id": "gemini-3.1-flash-lite", "priceIn": 0.25, "priceOut": 1.50 },
       { "id": "gemini-2.5-flash",      "priceIn": 0.30, "priceOut": 2.50 },
       { "id": "gemini-2.5-flash-lite", "priceIn": 0.10, "priceOut": 0.40 }
     ] },
@@ -55,10 +53,7 @@
     ] },
     { "provider": "Gemini",      "models": [
       { "id": "gemini-3.8-flash-tts", "realtime": { "textIn": 0.50, "textCachedIn": 0.125, "audioOut": 9.00, "audioTokensPerSecond": 25 } },
-      { "id": "gemini-3.8-flash-lite-tts", "realtime": { "textIn": 0.50, "textCachedIn": 0.125, "audioOut": 6.00, "audioTokensPerSecond": 25 } },
-      { "id": "gemini-3.1-flash-tts-preview", "priceIn": 18 },
-      { "id": "gemini-2.5-pro-preview-tts", "priceIn": 18 },
-      { "id": "gemini-2.5-flash-preview-tts", "priceIn": 9 }
+      { "id": "gemini-3.8-flash-lite-tts", "realtime": { "textIn": 0.50, "textCachedIn": 0.125, "audioOut": 6.00, "audioTokensPerSecond": 25 } }
     ] },
     { "provider": "OpenAI",      "models": [
       { "id": "gpt-realtime-2.1-mini", "realtime": { "textIn": 0.60, "textCachedIn": 0.06, "textOut": 2.40, "audioIn": 10.00, "audioCachedIn": 0.30, "audioOut": 20.00 } }
@@ -90,6 +85,9 @@
     ] },
     { "provider": "OpenAI",       "models": [
       { "id": "gpt-transcribe", "priceIn": 0.27 }
+    ] },
+    { "provider": "Gemini",       "models": [
+      { "id": "gemini-3.5-transcribe", "priceIn": 0.30 }
     ] }
   ]
 }
